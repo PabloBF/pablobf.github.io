@@ -1,3 +1,8 @@
+---
+layout: default
+title: Página do Rê
+description: Aqui temos uma página muito bacana's.
+---
 ## Bienvenu
 <!--
 ## Welcome to GitHub Pages
