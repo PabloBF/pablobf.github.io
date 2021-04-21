@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Verificador de idade</title>
+    <link href="ex01.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<article>
+		<header>
+			<h1>Verificador de idade</h1>
+		</header>
+		<section id="secIdade">
+			<form id="formulario">
+				<div>
+					<label for="nasc">Por favor, informe sua data de nascimento:</label><input id="nasc" name="dnasc" type="date">
+				</div>
+				<div>
+					<p>Por favor, informe seu gênero:</p>
+					<input type="radio" id="feminino" name="genero" value="f" checked>
+					<label for="feminino">Feminino</label><br>
+					<input type="radio" id="masculino" name="genero" value="m">
+					<label for="masculino">Masculino</label><br>
+					<input type="radio" id="outro" name="genero" value="o">
+					<label for="outro">Outro</label>
+				</div>
+				<div>
+					<button type="submit">Enviar</button>
+				</div>
+				<div id="resultado">
+				</div>
+			</form>
+		</section>
+		<footer>
+			<p>&copy;Pablo Busatto</p>
+		</footer>
+		</article>
+		<script src="ex02.js"></script>
+	</body>
+</html>

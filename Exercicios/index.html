@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Cuso de JavaScript - Curso em vídeo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="Titulo">Olá, <span id="vocativo">mundo</span>!</h1>
+
+		<div class="teste">
+			<h2>Exercícios</h2>
+			<ol>
+				<li><a href="ex01.html">Hora do dia - turno</a></li>
+				<li><a href="ex02.html">Idade</a></li>
+			</ol>
+		</div>
+		<div id='botoes'>
+			<div id="botao1" class="botoes" onclick="clicar()" onmouseenter="entrar()" onmouseleave="sair()">
+				<p>Botão sem listeners.</p>
+				<p id="texto1" class="textos">Botão 1</p>
+			</div>
+			
+			<div id="botao2" class="botoes">
+				<p>Botão com listeners.</p>
+				<p id="texto2" class="textos">Botão 2</p>
+			</div>
+
+			<div id="botao3" class="botoes">
+				<p>Botão genérico</p>
+				<p id="texto3" class="textos">Botão 3</p>
+			</div>
+		</div>
+<div>
+	<h2>Somando valores</h2>
+	<div>
+		<input type='number' class='fatores' id='n1' name='nn1' value=0></input>
+		<select id="operador" onchange="operar">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select>
+		<input type='number' class='fatores' id='n2' name='nn2' value=0></input> =
+		<span id='resultado'></span>
+	</div>
+</div>
+		<script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+header {
+	color: white;
+}
+
+body {
+	background-color: rgb(70, 142, 236);
+	font-style: normal;
+	font-size: 15pt;
+	font-family: Arial;
+	text-align: center;
+}
+
+section {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	width: 50%;
+	margin: auto;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356)
+}
+
+footer {
+	font-style: italic;
+	padding: 15px;
+	color: white;
+}
+
+p {
+	margin-bottom: 10px;
+}
+section#secIdade {
+	text-align: left;
+}
+div#resultado {
+	text-align: center;
+}
