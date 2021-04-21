@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Página do Rê
-description: Aqui temos uma página muito bacana's.
+title: Page d'entrée de Pablo
+description: Voilà une page très coquette.
 ---
 
-## Welcome to GitHub Pages
+## Bienvenu
 
 You can use the [editor on GitHub](https://github.com/PabloBF/pablobf.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
