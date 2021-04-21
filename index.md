@@ -6,7 +6,7 @@ description: Voilà une page très coquette.
 
 ## Bienvenu
 
-Ceci est ma page, bienvenue.
+Ceci est ma page, bienvenu.
 
 <!-- 
 You can use the [editor on GitHub](https://github.com/PabloBF/pablobf.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
