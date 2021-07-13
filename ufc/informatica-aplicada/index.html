@@ -10,7 +10,7 @@
 		body {
 			font-family: proxima-nova,Helvetica,sans-serif;
 			background-color: #463940;
-			color: rgb(210, 210, 210);
+			color: #D2D2D2;
 			margin-top: 0;
 			margin-left: 0;
 			margin-right: 0;
@@ -59,6 +59,14 @@
 			padding-right: 5%;
 			padding-bottom: 3px;
 		}
+		
+		figure {
+			text-align: center;
+		}
+		
+		figure figcaption {
+			text-align: left;
+		}
 	
 	</style>
   </head>
@@ -83,10 +91,54 @@
 		<h3><i lang="en">Software</i> básico: modelo de camadas</h3>
 
 		<figure>
-		<img src="img/SistemaDeCamadas.png"
-			 alt="Diagrama com a posição do sistema operacional no uso de um computador."
-				 title="Sistema operacional no modelo de camadas." />
-		<figcaption>Fonte: GOLFTHEMAN; MASMANGAN; PENUMBROSO. <b>Operating system placement-pt</b>. 12 Apr. 2017. [<i>S. l.</i>]: Wikimedia Commons, 2017. 1 diagrama, 922 × 1417 pixels, 41,7 kB, RGB, formato png, Disponível em: <a class="quebra" rel="external" href="https://pt.wikipedia.org/wiki/Ficheiro:Operating_system_placement-pt.svg">https://pt.wikipedia.org/wiki/Ficheiro:Operating_system_placement-pt.svg</a>. Acesso em: 12 jul. 2021.</figcaption>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.04 81.01" width=250px>
+		<title>Sistema operacional pelo modelo de camadas</title>
+			<defs>
+				<style>
+					.usuario-camada{
+						fill:#fbaf5d;
+					}
+					.software-camada{
+						fill:#e880be;
+					}
+					.sistema-operacional-camada{
+						fill:#00bff3;
+					}
+					.hardware-camada{
+						fill:#acd373;
+					}
+					.texto-estrangeiro,.texto-portugues{
+						font-size:4.75px;
+						fill:#FFF;
+					}
+					.texto-estrangeiro{
+						font-family:Arial-ItalicMT, Arial;
+						font-style:italic;
+					}
+					.texto-portugues{
+						font-family:ArialMT, Arial;
+					}
+				</style>
+				<rect id="camada" width="53.04" height="15.4" rx="1"/>
+				<polygon id="seta-baixo" points="13.84 17.62, 13.84 15.35, 9.54 15.35, 9.54 17.62, 7.36 17.62, 11.69 21.87, 16.01 17.62, 13.84 17.62"/>
+				<use id="seta-cima" href="#seta-baixo" transform="rotate(180 26.52 18.635)"/>
+			</defs>
+			<use id="usuario-camada" href="#camada" class="usuario-camada"/>
+			<use id="software-camada" href="#camada" class="software-camada" transform="translate(0 21.87)"/>
+			<use id="sistema-operacional-camada" href="#camada" class="sistema-operacional-camada" transform="translate(0 21.87) translate(0 21.87)"/>
+			<use id="hardware-camada" href="#camada" class="hardware-camada" transform="translate(0 21.87) translate(0 21.87) translate(0 21.87)"/>
+			<use id="seta-usuario" href="#seta-baixo" class="usuario-camada"/>
+			<use id="seta-software-b" href="#seta-baixo" class="software-camada" transform="translate(0 21.87)"/>
+			<use id="seta-sistema-operacional-b" href="#seta-baixo" class="sistema-operacional-camada" transform="translate(0 21.87) translate(0 21.87)"/>
+			<use id="seta-hardware-c" href="#seta-cima" class="hardware-camada" transform="translate(0 21.87) translate(0 21.87)"/>
+			<use id="seta-sistema-operacional-c" href="#seta-cima" class="sistema-operacional-camada" transform="translate(0 21.87)"/>
+			<use id="seta-software-c" href="#seta-cima" class="software-camada"/>
+			<text class="texto-portugues" transform="translate(18.32 8.88) rotate(0.6)">Usuário</text>
+			<text class="texto-estrangeiro" transform="translate(17.13 30.74) rotate(0.6)">Software</text>
+			<text class="texto-portugues" transform="translate(4.98 52.49) rotate(0.6)">Sistema operacional</text>
+			<text class="texto-estrangeiro" transform="translate(16.21 74.47) rotate(0.6)">Hardware</text>
+		</svg>
+		<figcaption>Fonte: próprio autor, baseado em GOLFTHEMAN; MASMANGAN; PENUMBROSO. <b>Operating system placement-pt</b>. 12 Apr. 2017. [<i>S. l.</i>]: Wikimedia Commons, 2017. 1 diagrama, 922 × 1417 pixels, 41,7 kB, RGB, formato png, Disponível em: <a class="quebra" rel="external" href="https://pt.wikipedia.org/wiki/Ficheiro:Operating_system_placement-pt.svg">https://pt.wikipedia.org/wiki/Ficheiro:Operating_system_placement-pt.svg</a>. Acesso em: 12 jul. 2021.</figcaption>
 		</figure>
 		<dl>
 		<dt><i lang="en">Software</i></dt>
