@@ -48,7 +48,6 @@
     dt {
       font-weight: bold;
     }
-
     address {
       font-style: normal;
     }
@@ -75,9 +74,39 @@
     "@context": "https://schema.org/",
     "@type": "WebSite",
     "name": "Anotações da aula sobre softwares e hardwares",
-    "author": "Pablo Busatto",
+    "author": {
+      "@type": "Person",
+      "givenName": "Pablo",
+      "familyName": "Busatto",
+      "birthDate": "1989-05-25",
+      "birthPlace": {
+        "@type": "Place",
+        "address" : {
+          "@type" : "PostalAddress",
+          "addressLocality" : "Belém",
+          "addressRegion" : "PA",
+          "addressCountry" : "BR"
+        }
+      }
+    },
     "description": "Página elaborada sob orientação do professor Arnoldo Nunes como atividade da disciplina HJ0005 - Informática aplicada à biblioteconomia e ciência da informação.",
-    "dateCreated": "2001-07-12 18:00"
+    "dateCreated": "2001-07-12 18:00",
+    "mainEntity": {
+      "@type": "Course",
+      "courseCode": "HJ0005",
+      "name": "Informática aplicada à biblioteconomia e ciência da informação",
+      "author": "Arnoldo Nunes",
+      "provider": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidade Federal do Ceará",
+        "url": "https://www.ufc.br"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": ["https://ceds.ed.gov/element/001311#Asynchronous","online"],
+        "name": "Softwares e hardwares"
+      }
+    }
   }
   </script>
   </head>
@@ -97,9 +126,7 @@
         <abbr aria-label="exemplos" title="exemplos">ex.</abbr>: sistema operacional: Windows, Linux, macOS, Android (para dispositivos móveis)…</dd>
     </dl>
       
-
     <h3><i lang="en">Software</i> básico: modelo de camadas</h3>
-
     <figure>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.04 81.01" width="250px" aria-labelledby="camadas-titulo camadas-desc" role="img">
     <title id="camadas-titulo">Sistema operacional pelo modelo de camadas</title>
@@ -157,15 +184,10 @@
     <dt><i lang="en">Hardware</i>
     <dd role="text">parte física.</dd>
     </dl>
-
     <p><i lang="en">Softwares</i> aplicativos e utilitários precisam de um outro <i lang="en">software</i> que faça a comunicação com o <i lang="en">hardware</i>. O <i lang="en">software</i> que faz essa comunicação é o sistema operacional.</p>
-
     <p>Quando a máquina é ligada, o <i lang="en">hardware</i> primeiramente procura se há um sistema operacional instalado.</p>
-
     <p>O <i lang="en">hardware</i> só continua funcionando se houver um sistema operacional instalado, senão não faz nada, esperando que o sistema operacional seja alocado na memória.</p>
-
     <p>Depois que o sistema operacional for carregado, a máquina estará pronta para receber qualquer [outro] <i lang="en">software</i>.</p>
-
     <p>O <i lang="en">software</i> básico vai fazer esse intermédio de comunicação com o <i lang="en">hardware</i> para que os outros <i lang="en">softwares</i> possam ser executados.</p>
   </article>
   <footer>
