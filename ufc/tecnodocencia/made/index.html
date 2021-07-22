@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Alimentos</title>
+<title>De barriga cheia</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:0.1em}0%,to{top:0px}}@keyframes shudder{25%{left:0.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:0.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:0.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%, to{transform:translateX(0em)}5%, 25%, 45%{transform:translateX(-1em)}15%, 35%, 55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%, to{transform:translateY(0em)}5%, 25%, 45%{transform:translateY(-1em)}15%, 35%, 55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%, 8.1%, 82.1%, 31.1%, 38.1%, 44.1%, 40.1%, 47.1%, 74.1%, 16.1%, 27.1%, 72.1%, 24.1%, 95.1%, 6.1%, 36.1%, 20.1%, 4.1%, 91.1%, 14.1%, 87.1%, to{left:0px;top:0px}8%, 82%, 31%, 38%, 44%{left:-1px}40%, 47%, 74%, 16%, 27%{left:1px}72%, 24%, 95%, 6%, 36%{top:-1px}20%, 4%, 91%, 14%, 87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:black;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" title="' attr(title) '">'}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,0.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,0.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,0.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,0.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,0.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,0.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,0.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,0.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,0.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,0.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,0.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,0.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,0.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 0.5em 0.5em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel-source,tw-debugger .panel-row-source{font-family:monospace;overflow-x:scroll;white-space:pre;-ms-flex-preferred-size:100%;flex-basis:100%}tw-debugger .panel-row-source{margin:5px 0}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background:#EEE}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:0.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#444;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row>*{display:table-cell;padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .error-row .error-passage{color:#444}tw-debugger .storylet-row{background-color:rgba(201,233,222,0.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(128,203,178,0.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;opacity:0.4;background-color:rgba(217,217,217,0.3)}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:rgba(166,166,166,0.3)}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,0.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-debugger .resizer{position:absolute;height:3em;border-left:2px solid #ccc;border-right:2px solid #ccc;top:10px;left:4px;width:8px;cursor:ew-resize}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media (min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop ~ tw-backdrop{display:none}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage [style^="color"] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-link:hover,tw-passage [style*=" color"][hover="true"] tw-link:hover,tw-passage [style^="color"] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^="color"][hover="true"] .enchantment-link:hover,tw-passage [style*=" color"][hover="true"] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage [style^="color"] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^="color"][hover="true"] .visited:hover,tw-passage [style*=" color"][hover="true"] .visited:hover{color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage [style^="color"] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-broken-link:hover,tw-passage [style*=" color"][hover="true"] tw-broken-link:hover{color:inherit}.enchantment-mouseover{border-bottom:2px dashed #999}.enchantment-mouseout{border:rgba(64,149,191,0.6) 1px solid}.enchantment-mouseout:hover{background-color:rgba(175,197,207,0.75);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,0.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,0.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 0.5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 0.5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,0.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,0.75);border:transparent 2px solid;border-radius:0.2em}tw-link.enchantment-button,.enchantment-link.enchantment-button,.enchantment-button:not(.enchantment-link) tw-link,.enchantment-button:not(.enchantment-link) .enchantment-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media (min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:transparent;font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 0.5em}tw-story tw-noscript{animation:appear 0.8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*="width"]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:0.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:0.2}tw-icon[alt]:hover{opacity:0.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,0.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;padding:2px;white-space:pre}tw-folddown::after{content:"\25b6"}tw-folddown.open::after{content:"\25bc"}tw-open-button::after{content:"Open"}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Alimentos.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Alimentos" startnode="1" creator="Twine" creator-version="2.3.14" ifid="25BC2692-94A9-4FAF-A702-AEB428119FA9" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story{
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play De barriga cheia.</tw-noscript></noscript></tw-story>
+<tw-storydata name="De barriga cheia" startnode="1" creator="Twine" creator-version="2.3.14" ifid="25BC2692-94A9-4FAF-A702-AEB428119FA9" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story{
 	background-color: #333333;
 
 }
@@ -31,184 +31,138 @@ tw-link {
 
 .enchantment-link:hover, tw-link:hover {
     color: [NOME DA COR EM INGLÊS OU CÓDIGO HEX COM #];
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Início-passagem1.0" tags="" position="22,223" size="100,100">Meu nome é Danielle e eu estudo Sistemas e mídias e não faz muito tempo que  vim estudar no exterior, eu fiz algumas amizades com alunos de outros cursos da minha Universidade algumas delas inclusive estavam se dirigindo até o meu prédio Karol minha amiga de Letras, Pablo da Filosofia, João da Biologia e Vivian Clarissa da Química, eu sei, eu também adoro nomes compostos parece nome de novela mexicana, né?  Eu já havia assistido a 3 das quatro aulas que tinha neste dia quando minhas amigas se reuniram na entrada do ediício do meu curso e me chamaram pra conhecer um restaurante novo que inaugurou ali perto da universidade…..
-
-
-
-
-
-
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Início-passagem1.0" tags="" position="15,213" size="100,100">Meu nome é Danielle e eu estudo Sistemas e mídias e não faz muito tempo que  vim estudar no exterior, eu fiz algumas amizades com alunos de outros cursos da minha Universidade algumas delas inclusive estavam se dirigindo até o meu prédio Karol minha amiga de Letras, Pablo da Filosofia, João da Biologia e Vivian Clarissa da Química, eu sei, eu também adoro nomes compostos parece nome de novela mexicana, né?  Eu já havia assistido a três das quatro aulas que tinha neste dia quando minhas amigas se reuniram na entrada do ediício do meu curso e me chamaram pra conhecer um restaurante novo que inaugurou ali perto da universidade…
 
 Escolha:
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Vou agora?-&gt;Passagem-1.1]]
 ou
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[peço para irmos depois da aula?-&gt;Passagem-1.2]]</tw-passagedata><tw-passagedata pid="2" name="Passagem-1.1" tags="" position="150,42" size="100,100"> Era um restaurante que eu estava de olho já havia um tempo e Deus sabe que o fim do semestre é um inferno pro estudante e que eu não gastei todas as faltas que eu tenho direito, sendo assim antes mesmo que terminassem a sentença já fui logo pegando a chave do meu carro.
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[peço para irmos depois da aula?-&gt;Passagem-1.2]]</tw-passagedata><tw-passagedata pid="2" name="Passagem-1.1" tags="" position="143,32" size="100,100"> Era um restaurante que eu estava de olho já havia um tempo. Deus sabe que o fim do semestre é um inferno pro estudante e que eu não gastei todas as faltas que eu tenho direito, sendo assim antes mesmo que terminassem a sentença, fui logo pegando a chave do meu carro.
  
- Durante o caminho para o lugar a conversa foi engatando e cada uma começou a falar um pouco mais da sua área de conhecimento resultando em uma salada de informações que de alguma forma acabavam se cruzando o mais interessante era a letrista traduzindo para mim e para o meu amigo filósofo que estava sendo meu co piloto no carro as palavras complicadas da biologia e da química.
+ Durante o caminho, a conversa foi engatando e cada um começou a falar um pouco mais da sua área de conhecimento, resultando em uma salada de informações que de alguma forma acabavam se cruzando o mais interessante era a letrista traduzindo para mim e para o meu amigo filósofo, que estava sendo meu copiloto no carro, as palavras complicadas da biologia e da química.
 
 &lt;img src=&quot;https://i.pinimg.com/originals/aa/9d/af/aa9dafe5d070bb3a96778a6d4ed00054.gif&quot;&gt;
-
-
-
-
-
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo-&gt;Passagem-1.1.2]]
+</tw-passagedata><tw-passagedata pid="3" name="Passagem-1.2" tags="" position="143,337" size="100,100">Era a última aula do dia mesmo e o professor iria liberar cedo a classe, então pedi que me dessem um hora pra falar com ele e depois sair de fininho só pra não levar falta. O plano deu certo e logo estávamos dentro do meu carro a caminho do restaurante que inaugurou perto da universidade.
 
-</tw-passagedata><tw-passagedata pid="3" name="Passagem-1.2" tags="" position="150,347" size="100,100">Era a última aula do dia mesmo e o professor iria liberar cedo a classe então pedi que me dessem um hora pra falar com ele e depois sair de fininho só pra não levar falta. O plano deu certo e logo estávamos dentro do meu carro a caminho do restaurante que inaugurou perto da universidade.
-
-Durante o caminho para o lugar a conversa foi engatando e cada uma começou a falar um pouco mais da sua área de conhecimento resultando em uma salada de informações que de alguma forma acabavam se cruzando o mais interessante era a linguista traduzindo pra mim e pro meu amigo filósofo que estava sendo meu co piloto no carro as palavras complicadas da biologia e da química.
-
-
+Durante o caminho para o lugar a conversa foi engatando e cada uma começou a falar um pouco mais da sua área de conhecimento resultando em uma salada de informações que de alguma forma acabavam se cruzando o mais interessante era a linguista traduzindo pra mim e pro meu amigo filósofo, que estava sendo meu copiloto no carro, as palavras complicadas da biologia e da química.
 
 &lt;img src=&quot;https://i.pinimg.com/originals/aa/9d/af/aa9dafe5d070bb3a96778a6d4ed00054.gif&quot;&gt;
 
-
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo-&gt;Passagem-1.2.2]]
-
-
-
-
 </tw-passagedata><tw-passagedata pid="4" name="12 pieces bucket" tags="" position="821,8" size="100,100">
 
 
-	&mdash; Bem eu não sei vocês , mas esse fish and chips me parece muito atraente vai me dar proteína e me salvar da minha mãe então tá ótimo sempre gostei de peixe &mdash; falei.	
-	&mdash; Eu vou querer o peixe também  &mdash; Falou Vivian Clarissa.
-	&mdash; Eu vou querer o 12 pieces bucket &mdash; falou Karol &mdash; e vocês meninos?
-	&mdash; Eu vou querer o baked feta cheese &mdash; falou João.
-	&mdash; Eu vou querer o chicken and salad não me importo de viajar para o outro lado do mundo e comer frango com salada &mdash; falou Pablo alfinetando Karol.
+	— Bem eu não sei vocês , mas esse //fish and chips// me parece muito atraente vai me dar proteína e me salvar da minha mãe então tá ótimo sempre gostei de peixe — falei.	
+	— Eu vou querer o peixe também  — Falou Vivian Clarissa.
+	— Eu vou querer o //12 pieces bucket// — falou Karol — e vocês meninos?
+	— Eu vou querer o //baked feta cheese// — falou João.
+	— Eu vou querer o //chicken and salad// não me importo de viajar para o outro lado do mundo e comer frango com salada — falou Pablo alfinetando Karol.
 
   Eu chamei o garçom e falei para ele o que queríamos eles anotou os pedidos e sumiu atrás do balcão em direção a cozinha e enquanto esperávamos a chegada aproveitei a oportunidade e dei o primeiro passo:
 
-	&mdash; Que tal trabalharmos juntos ?
+	— Que tal trabalharmos juntos ?
 
  A galera da mesa virou o pescoço para mim de forma abrupta e responderam em unissom:
 
-	&mdash; Como assim?
-	&mdash; O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
-	&mdash; Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?	
-	&mdash; A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatc ?
-	&mdash; Eu &mdash; Falou Vivian Clarissa levantando a mão &mdash; é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
-	&mdash; Não, o Bandersnatc é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
+	— Como assim?
+	— O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
+	— Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?	
+	— A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatchh?
+	— Eu — Falou Vivian Clarissa levantando a mão — é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
+	— Não, o Bandersnatch é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
 
-	&mdash; Entendi &mdash; Falou Pablo &mdash; essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
-	&mdash; E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou &mdash; falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato enquanto comia eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
+	— Entendi — Falou Pablo — essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
+	— E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou — falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato enquanto comia eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
 
   O prato estava uma delícia, a noite era uma criança é assim que saímos do restaurante fomos dar uma volta na cidade conhecer alguns locais durante a noite comentei mais algumas vezes sobre a minha proposta, respondi dúvidas e fiz perguntas depois de um tempo deixei todos em suas casas e fui dormir planejando o livro jogo, como ele seria a quantidade de finais que haveria, Ah!Como esse projeto vai ser um épico!
 
-
-
-
 &lt;img src=&quot;https://i.pinimg.com/originals/f4/b7/78/f4b7780fca451d095bb0fbf5c9a53f71.gif&quot;&gt;
-
-
-
-
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo -&gt;Felizes de Barriga cheia]]</tw-passagedata><tw-passagedata pid="5" name="chicken and salad" tags="" position="1072,8" size="100,100">
 
 
-	&mdash; Bem eu não sei vocês , mas esse fish and chips me parece muito atraente vai me dar proteína e me salvar da minha mãe então tá ótimo sempre gostei de peixe &mdash; falei.	
-	&mdash; Eu vou querer o peixe também  &mdash; Falou Vivian Clarissa.
-	&mdash; Eu vou querer o 12 pieces bucket &mdash; falou Karol &mdash; e vocês meninos?
-	&mdash; Eu vou querer o baked feta cheese &mdash; falou João.
-	&mdash; Eu vou querer o chicken and salad não me importo de viajar para o outro lado do mundo e comer frango com salada &mdash; falou Pablo alfinetando Karol.
+	— Bem eu não sei vocês , mas esse //fish and chips// me parece muito atraente vai me dar proteína e me salvar da minha mãe então tá ótimo sempre gostei de peixe — falei.	
+	— Eu vou querer o peixe também  — Falou Vivian Clarissa.
+	— Eu vou querer o //12 pieces bucket// — falou Karol — e vocês meninos?
+	— Eu vou querer o //baked feta cheese// — falou João.
+	— Eu vou querer o //chicken and salad// não me importo de viajar para o outro lado do mundo e comer frango com salada — falou Pablo alfinetando Karol.
 
   Eu chamei o garçom e falei para ele o que queríamos eles anotou os pedidos e sumiu atrás do balcão em direção a cozinha e enquanto esperávamos a chegada aproveitei a oportunidade e dei o primeiro passo:
 
-	&mdash; Que tal trabalharmos juntos ?
+	— Que tal trabalharmos juntos ?
 
  A galera da mesa virou o pescoço para mim de forma abrupta e responderam em unissom:
 
-	&mdash; Como assim?
-	&mdash; O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
-	&mdash; Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?	
-	&mdash; A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatc ?
-	&mdash; Eu &mdash; Falou Vivian Clarissa levantando a mão &mdash; é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
-	&mdash; Não, o Bandersnatc é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
+	— Como assim?
+	— O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
+	— Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?	
+	— A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatch ?
+	— Eu — Falou Vivian Clarissa levantando a mão — é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
+	— Não, o Bandersnatch é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
 
-	&mdash; Entendi &mdash; Falou Pablo &mdash; essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
-	&mdash; E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou &mdash; falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato enquanto comia eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
+	— Entendi — Falou Pablo — essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
+	— E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou — falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato enquanto comia eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
 
   O prato estava uma delícia, a noite era uma criança é assim que saímos do restaurante fomos dar uma volta na cidade conhecer alguns locais durante a noite comentei mais algumas vezes sobre a minha proposta, respondi dúvidas e fiz perguntas depois de um tempo deixei todos em suas casas e fui dormir planejando o livro jogo, como ele seria a quantidade de finais que haveria, Ah!Como esse projeto vai ser um épico!
 
-
-
-
 &lt;img src=&quot;https://i.pinimg.com/originals/f4/b7/78/f4b7780fca451d095bb0fbf5c9a53f71.gif&quot;&gt;
 
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo -&gt;Felizes de Barriga cheia]]</tw-passagedata><tw-passagedata pid="6" name="fish and chips" tags="" position="959,7" size="100,100">
 
 
-
-
-
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo -&gt;Felizes de Barriga cheia]]</tw-passagedata><tw-passagedata pid="6" name="fish and chips" tags="" position="960,7" size="100,100">
-
-
-	&mdash; Bem eu não sei vocês , mas esse fish and chips me parece muito atraente vai me dar proteína e me salvar da minha mãe então tá ótimo sempre gostei de peixe &mdash; falei.	
-	&mdash; Eu vou querer o peixe também  &mdash; Falou Vivian Clarissa.
-	&mdash; Eu vou querer o 12 pieces bucket &mdash; falou Karol &mdash; e vocês meninos?
-	&mdash; Eu vou querer o baked feta cheese &mdash; falou João.
-	&mdash; Eu vou querer o chicken and salad não me importo de viajar para o outro lado do mundo e comer frango com salada &mdash; falou Pablo alfinetando Karol.
+	— Bem eu não sei vocês , mas esse //fish and chips//me parece muito atraente vai me dar proteína e me salvar da minha mãe então tá ótimo sempre gostei de peixe — falei.	
+	— Eu vou querer o peixe também  — Falou Vivian Clarissa.
+	— Eu vou querer o //12 pieces bucket// — falou Karol — e vocês meninos?
+	— Eu vou querer o //baked feta cheese// — falou João.
+	— Eu vou querer o //chicken and salad// não me importo de viajar para o outro lado do mundo e comer frango com salada — falou Pablo alfinetando Karol.
 
   Eu chamei o garçom e falei para ele o que queríamos eles anotou os pedidos e sumiu atrás do balcão em direção a cozinha e enquanto esperávamos a chegada aproveitei a oportunidade e dei o primeiro passo:
 
-	&mdash; Que tal trabalharmos juntos ?
+	— Que tal trabalharmos juntos ?
 
  A galera da mesa virou o pescoço para mim de forma abrupta e responderam em unissom:
 
-	&mdash; Como assim?
-	&mdash; O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
-	&mdash; Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?	
-	&mdash; A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatc ?
-	&mdash; Eu &mdash; Falou Vivian Clarissa levantando a mão &mdash; é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
-	&mdash; Não, o Bandersnatc é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
+	— Como assim?
+	— O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
+	— Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?	
+	— A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatch ?
+	— Eu — Falou Vivian Clarissa levantando a mão — é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
+	— Não, o Bandersnatch é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
 
-	&mdash; Entendi &mdash; Falou Pablo &mdash; essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
-	&mdash; E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou &mdash; falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato enquanto comia eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
+	— Entendi — Falou Pablo — essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
+	— E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou — falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato enquanto comia eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
 
   O prato estava uma delícia, a noite era uma criança é assim que saímos do restaurante fomos dar uma volta na cidade conhecer alguns locais durante a noite comentei mais algumas vezes sobre a minha proposta, respondi dúvidas e fiz perguntas depois de um tempo deixei todos em suas casas e fui dormir planejando o livro jogo, como ele seria a quantidade de finais que haveria, Ah!Como esse projeto vai ser um épico!
 
-
-
-
 &lt;img src=&quot;https://i.pinimg.com/originals/f4/b7/78/f4b7780fca451d095bb0fbf5c9a53f71.gif&quot;&gt;
-
-
-
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo -&gt;Felizes de Barriga cheia]]</tw-passagedata><tw-passagedata pid="7" name="Degustação completa" tags="" position="888,422" size="100,100">
 
-  Nossa degustação completa do menu foi intensa e selvagem pessoas choraram, lágrimas foram derramadas e muito esforço foi colocado em jogo o Biólogo João até que carregou bem a montanha de comida que recebemos, Karol coitada tentou entrar na brincadeira e saiu passando mal, contudo, durou mais do que a Química, Vivian Clarissa não aguentou o primeiro round, Pablo ficou de boas na lagoa enquanto terminávamos nossa missão do dia eu fui e dei o primeiro passo:
+  Nossa degustação completa do menu foi intensa e selvagem pessoas choraram, lágrimas foram derramadas e muito esforço foi colocado em jogo o biólogo João até que carregou bem a montanha de comida que recebemos, Karol coitada tentou entrar na brincadeira e saiu passando mal, contudo, durou mais do que a Química, Vivian Clarissa não aguentou o primeiro round, Pablo ficou de boas na lagoa enquanto terminávamos nossa missão do dia eu fui e dei o primeiro passo:
 
-	&mdash; Que tal trabalharmos juntos ?
+	— Que tal trabalharmos juntos ?
 
  A galera da mesa virou o pescoço para mim de forma abrupta e responderam em unissom:
 
-	&mdash; Como assim?
-	&mdash; O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
-	&mdash; Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?
-	&mdash; A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatc ?
-	&mdash; Eu &mdash; Falou Vivian Clarissa levantando a mão &mdash; é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
-	&mdash; Não, o Bandersnatc é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
+	— Como assim?
+	— O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
+	— Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?
+	— A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatch ?
+	— Eu — Falou Vivian Clarissa levantando a mão — é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
+	— Não, o Bandersnatch é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
 
-	&mdash; Entendi &mdash; Falou Pablo &mdash; essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
-	&mdash; E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou &mdash; Falei dando mais uma colherada no meu prato que estáva delicioso eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
-	&mdash; Depois de um tempo quando acabamos nossos pratos e Karol não parava de gemer de dor, Pablo foi pegar  a conta e na volta a mesa ele veio com uma cara estranha:
-	&mdash; Estranho isso aqui está mais barato do que eu achei que fosse dar &mdash; ele olhou para a mesa e depois para a nota &mdash; acho que eles esqueceram de adicionar algumas coisas aqui, eu vou voltar… &mdash; falou ele já se virando…
-NÃO! Espera. Volta. Senta. &mdash; Gritei, Pablo se assustou de um jeito que obedeceu tudo mecanicamente, vergonha alheia né gente. &mdash; Como foi aí a procedência? &mdash; perguntei.
+	— Entendi — Falou Pablo — essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
+	— E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou — Falei dando mais uma colherada no meu prato que estáva delicioso eu pude perceber que eles estavam contemplativos com a proposta, morderam meu peixe estou feliz.
+	— Depois de um tempo quando acabamos nossos pratos e Karol não parava de gemer de dor, Pablo foi pegar  a conta e na volta a mesa ele veio com uma cara estranha:
+	— Estranho isso aqui está mais barato do que eu achei que fosse dar — ele olhou para a mesa e depois para a nota — acho que eles esqueceram de adicionar algumas coisas aqui, eu vou voltar… — falou ele já se virando…
+NÃO! Espera. Volta. Senta. — Gritei, Pablo se assustou de um jeito que obedeceu tudo mecanicamente, vergonha alheia né gente. — Como foi aí a procedência? — perguntei.
 
-	&mdash; Nem vem eu conheço essa cara e você entendeu muito bem o que eu disse! &mdash; Falou ele olhando para o grupo esperando apoio &mdash; Qual é pessoal, eu sei que parece uma brecha tentadora, mas não devemos nos aproveitar da situação. Imaginem se todos agissem assim! Não é certo, devemos avisá-lo do engano e pagar o que é devido.
-	&mdash; Mas Pablo — retruquei — não estamos fazendo mal a ninguém. O dono desse restaurante já está cheio da grana. Pra ele, não vai fazer falta essa quantia que deixaremos de pagar, ele nem vai notar. Mas pra gente vai, com isso poderíamos comprar mais lembrancinhas pros nossos amigos e todos ficariam felizes.
-
-
-
-
+	— Nem vem eu conheço essa cara e você entendeu muito bem o que eu disse! — Falou ele olhando para o grupo esperando apoio — Qual é pessoal, eu sei que parece uma brecha tentadora, mas não devemos nos aproveitar da situação. Imaginem se todos agissem assim! Não é certo, devemos avisá-lo do engano e pagar o que é devido.
+	— Mas Pablo — retruquei — não estamos fazendo mal a ninguém. O dono desse restaurante já está cheio da grana. Pra ele, não vai fazer falta essa quantia que deixaremos de pagar, ele nem vai notar. Mas pra gente vai, com isso poderíamos comprar mais lembrancinhas pros nossos amigos e todos ficariam felizes.
 
 Escolha:
-
-
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Avisar ao caixa sobre o engano ocorrido na cobrança da conta-&gt;Degustação Completa-Caixa]]
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Pagar a conta do jeito que ela veio-&gt;Degustação]]
@@ -216,49 +170,39 @@ Escolha:
 
 </tw-passagedata><tw-passagedata pid="8" name="Garçom-1.2" tags="" position="741,293" size="100,100"> 
  
-	&mdash; Olha para ser honesta não sei qual escolher &mdash; falou Pablo.
-	&mdash; Eu gostei desse 12 piece bucket. &mdash; falou João.
+	— Olha para ser honesta não sei qual escolher — falou Pablo.
+	— Eu gostei desse 12 piece bucket. — falou João.
  Vendo a indecisão da galera eu fiz um sinal para o nosso herói de cada dia, o garçom:
-	&mdash; Olá boa tarde, tudo bom? 
-	&mdash; Sim, pois não?
-	&mdash; Qual das opções da casa você nos recomenda?
-	&mdash; Por favor, moço algo que tenha um tempero e seja gostoso &mdash; falou Pablo.
+	— Olá boa tarde, tudo bom? 
+	— Sim, pois não?
+	— Qual das opções da casa você nos recomenda?
+	— Por favor, moço algo que tenha um tempero e seja gostoso — falou Pablo.
  O garçom abriu um sorriso e falou:
-	&mdash; Bem eu posso sugerir então o baked feta cheese ele ficou famoso após viralizar no tik tok
-	&mdash; Baked feta cheese? &mdash; falei.
-	&mdash; Você não conhece? É muuuito gostoso, é uma travessa de macarrão, maravilhosamente cozida no forno com queijo feta e tomates cereja. Sério, saiu até um artigo mostrando como a busca por queijo feta se tornou viral nos supermercados dos EUA, só por causa do TikTok! &mdash; enquanto Karol falava do prato as outras pessoas do grupo foram fazendo coro aos seus elogios.
-Bem então entre 12 pieces bucket e  baked feta cheese, qual é a escolha?
+	— Bem eu posso sugerir então o //Baked feta cheese// ele ficou famoso após viralizar no TikTok
+	— //Baked feta cheese//? — falei.
+	— Você não conhece? É muuuito gostoso, é uma travessa de macarrão, maravilhosamente cozida no forno com queijo feta e tomates cereja. Sério, saiu até um artigo mostrando como a busca por queijo feta se tornou viral nos supermercados dos EUA, só por causa do TikTok! — enquanto Karol falava do prato as outras pessoas do grupo foram fazendo coro aos seus elogios.
+Bem então entre //12 pieces bucket// e  //Baked feta cheese//, qual é a escolha?
  
 Escolha:
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[12 piece bucket-&gt;Felizes de Barriga cheia]] 
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[baked feta cheese-&gt;Garçom-1.1]]
-</tw-passagedata><tw-passagedata pid="9" name="Degustação" tags="" position="1012,420" size="100,100">
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)//[[Baked feta cheese-&gt;Garçom-1.1]]//
+</tw-passagedata><tw-passagedata pid="9" name="Degustação" tags="" position="1012,420" size="100,100">Quando fomos pagar a conta, Pablo ficou na mesa com a cara emburrada. Terminamos o processo e saímos do recinto:
+Qual é, Pablo, não fica assim, eu te pago um sorvete, ok? — No momento que eu terminei de falar isso fomos parados abruptamente por dois caras em uma moto um deles estava armado e já foi logo ameaçando e pedindo os pertences, nós demos tudo sem reclamar, quando eles foram embora eu dei um suspiro de alívio, pelo menos não levaram meu carro!
+Todos estavam exaltados é claro aparentemente dois caras em uma moto com uma pistola existe em qualquer lugar, quando para Pablo ele estava ainda mais afetado:
+Desculpa, falei — ele desanuviou um pouco a expressando e começou a ri, o grupo olhou pra como se ele tivesse ficado doido.
+O que foi? Eu rio quando eu fico nervoso gente pode me chamar de escroto se quiserem, mas isso aqui foi //karma// meus xuxuzinhos e você vai me levar pra casa hoje nada de ônibus ou metrô pra mim depois disso — falou ele se virando resignado em direção ao meu carro, eu dei de ombros e olhei para os outros.
+Eu levo vocês também se quiserem só me passar o endereço menos você Vivian você vai pro hospital se continuar desse jeito — ela tentou sorrir mas acabou gemendo de dor no processo.
+Uma hora jovem — falou o biólogo ajudando ela a chegar no carro — uma hora depois disso a dor vai passando devagar.
+Deixa ela ficar na porta, mandei lavar o carro ontem, qualquer coisa só avisar viu meu morango? — ela olhou pra mim e fez um aceno. E assim terminou o dia nem muito bom, nem muito ruim só mais ou menos.
 
-Quando fomos pagar a conta, Pablo ficou na mesa com a cara emburrada. Terminamos o processo e saímos do recinto:
-Qual é Pablo não fica assim eu te pago um sorvete, ok? &mdash; No momento que eu terminei de falar isso fomos parados abruptamente por dois caras em uma moto um deles estava armado e já foi logo ameaçando e pedindo os pertences, nós demos tudo sem reclamar, quando eles foram embora eu dei um suspiro de alívio, pelo menos não levaram meu carro!
-  Todos estavam exaltados é claro aparentemente dois caras em uma moto com uma pistola existe em qualquer lugar, quando para Pablo ele estava ainda mais afetado:
-Desculpa falei &mdash; ele desanuviou um pouco a expressando e começou a ri, o grupo olhou pra como se ele tivesse ficado doido.
-O que foi? Eu rio quando eu fico nervoso gente pode me chamar de escroto se quiserem, mas isso aqui foi karma meus xuxuzinhos e você vai me levar pra casa hoje nada de ônibus ou metrô pra mim depois disso &mdash; falou ele se virando resignado em direção ao meu carro, eu dei de ombros e olhei para os outros.
-Eu levo vocês também se quiserem só me passar o endereço menos você Vivian você vai pro hospital se continuar desse jeito &mdash; ela tentou sorrir mas acabou gemendo de dor no processo.
-Uma hora jovem &mdash; falou o Biólogo ajudando ela a chegar no carro &mdash; uma hora depois disso a dor vai passando devagar.
-Deixa ela ficar na porta, mandei lavar o carro ontem, qualquer coisa só avisar viu meu morango? &mdash; ela olhou pra mim e fez um aceno. E assim terminou o dia nem muito bom, nem muito ruim só mais ou menos.
-
-
-
-
-
-
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próxima Página-&gt;Mensagem Final]]
-
-
-</tw-passagedata><tw-passagedata pid="10" name="Dani morre" tags="" position="1287,226" size="100,100">&lt;img src=&quot;https://i.pinimg.com/originals/ff/a9/12/ffa9127c944c603e993c8766122b5687.gif&quot;&gt;
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próxima Página-&gt;Mensagem Final]]</tw-passagedata><tw-passagedata pid="10" name="Dani morre" tags="" position="1287,226" size="100,100">&lt;img src=&quot;https://i.pinimg.com/originals/ff/a9/12/ffa9127c944c603e993c8766122b5687.gif&quot;&gt;
 
 
 
 	Eu abri meus olhos e então me deparei deparei com pessoas me olhando em uma tela estranha e eletrônica:
 
-	&mdash; Hey você que está tomando as decisões este livro tem 3 finais, faz um favor para mim? Volta pro começo e pega um caminho em que eu não termine indo pras cucuias, valeu obrigado! 
+	— Hey você que está tomando as decisões este livro tem 3 finais, faz um favor para mim? Volta pro começo e pega um caminho em que eu não termine indo pras cucuias, valeu obrigado! 
 
 
 
@@ -283,54 +227,41 @@ Escolhas:
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[OBS: equipe-&gt;Equipe]]</tw-passagedata><tw-passagedata pid="11" name="Felizes de Barriga cheia" tags="" position="1289,99" size="100,100">&lt;img src=&quot;https://i.pinimg.com/originals/7c/a9/29/7ca92978738eb01eb9d26ceee2e3b68e.gif&quot;&gt;
 
-
-
-Você chegou ao fim desta história mas eu gostaria de lhe informar que este é um livro jogo e nós temos 3 finais para essa história tudo depende das escolhas que você fizer, se quiser continuar só clicar em Início logo abaixo, mas se você não quiser continuar então a sua aventura termina por aqui espero que tenha gostado.
-
-
+Você chegou ao fim desta história, mas eu gostaria de lhe informar que este é um livro jogo e nós temos 3 finais para essa história. Tudo depende das escolhas que você fizer, se quiser continuar, só clicar em “Início” logo abaixo, mas se você não quiser continuar, então a sua aventura termina por aqui. Esperamos que tenha gostado!
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Início-&gt;Início-passagem1.0]]
 
-
-
-
-
-
-
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[OBS: equipe-&gt;Equipe]]</tw-passagedata><tw-passagedata pid="12" name="Garçom-1.1" tags="" position="744,144" size="100,100">
-
-
-  Vendo a indecisão da galera eu fiz um sinal para o nosso herói de cada dia, o garçom:
-	&mdash; Olá boa tarde, tudo bom? 
-	&mdash; Sim, pois não?
-	&mdash; Qual das opções da casa você nos recomenda?
-	&mdash; Por favor, moço algo que tenha um tempero e seja gostoso &mdash; falou Pablo.
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Créditos-&gt;Equipe]]</tw-passagedata><tw-passagedata pid="12" name="Garçom-1.1" tags="" position="742,125" size="100,100">  Vendo a indecisão da galera eu fiz um sinal para o nosso herói de cada dia, o garçom:
+	— Olá boa tarde, tudo bom? 
+	— Sim, pois não?
+	— Qual das opções da casa você nos recomenda?
+	— Por favor, moço algo que tenha um tempero e seja gostoso — falou Pablo.
   O garçom abriu um sorriso e falou:
-	&mdash; Bem eu posso sugerir então o baked feta cheese? Ele ficou famoso após viralizar no tik tok
-	&mdash; Baked feta cheese? &mdash; falei.
-	&mdash; Você não conhece? É muuuito gostoso, é uma travessa de macarrão, maravilhosamente cozida no forno com queijo feta e tomates cereja. Sério, saiu até um artigo mostrando como a busca por queijo feta se tornou viral nos supermercados dos EUA, só por causa do TikTok! &mdash; enquanto Karol falava do prato as outras pessoas do grupo foram fazendo coro aos seus elogios.
+	— Bem eu posso sugerir então o //baked feta cheese//? Ele ficou famoso após viralizar no tik tok
+	— //Baked feta cheese//? — falei.
+	— Você não conhece? É muuuito gostoso, é uma travessa de macarrão, maravilhosamente cozida no forno com queijo feta e tomates cereja. Sério, saiu até um artigo mostrando como a busca por queijo feta se tornou viral nos supermercados dos EUA, só por causa do TikTok! — enquanto Karol falava do prato as outras pessoas do grupo foram fazendo coro aos seus elogios.
 
-	&mdash; Baked feta moço. &mdash;  respondi.
+	— Baked feta moço. —  respondi.
 
   O garçom sorriu anotou o pedido e saiu, foi nesse espaço de milésimos de segundo em que a mesa fica entre um silêncio repentino e o início de uma baderna geral e generalizada, sim eu fiz pleonasmo que é pra dar ênfase, que eu fiz uma sugestão:
 
-	&mdash; Que tal trabalharmos juntos ?
+	— Que tal trabalharmos juntos ?
 
  A galera da mesa virou o pescoço para mim de forma abrupta e responderam em unissom:
 
-	&mdash; Como assim?
-	&mdash; O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
-	&mdash; Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?
-	&mdash; A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatc ?
-	&mdash; Eu &mdash; Falou Vivian Clarissa levantando a mão &mdash; é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
-	&mdash; Não, o Bandersnatc é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
+	— Como assim?
+	— O que eu quero dizer é que eu quero propor uma coalizão uma união de nossas áreas de conhecimento para o mesmo fim que todos temos quando nos formarmos, a educação, através de ferramentas interessante e não muito convencionais, pelo menos na educação, como a narrativa não linear que pode ser utilizada de forma lúdica e interativa em uma ampla gama de outras ferramentas, mas que no caso a que mais me interessa é um livro jogo…
+	— Ok, eu não sei o que eu pergunto primeiro o que é uma narrativa não linear  ou que é um livro jogo?
+	— A narrativa não linear são narrativas que podem não seguir uma sequência cronológica desenvolvendo-se descontinuamente entre o tempo e o espaço, normalmente acabam subvertendo o que a narrativa linear é  e com sua evolução através dos anos abriu espaço para uma participação do leitor ou do espectador, dependendo da ferramenta em uso, podendo assim interagir e influenciar a obra podendo mudar os rumos do enredo alguém aqui já assistiu Black mirror: Bandersnatchh ?
+	— Eu — Falou Vivian Clarissa levantando a mão — é muito bom, é diferente e interessante, mas ainda não entendi o que você quer fazer você um filme com escolhas?
+	— Não, o Bandersnatch é uma espécie de filme jogo o que eu quero fazer é escrever um livro-jogo ele vai ter escolhas em que o conteúdo do livro ou pelo menos as informações importantes do livro estão relacionadas com conteúdos de ensino médio como química, física, biologia e no geral o livro poderia ser uma aventura genérica normal um romance, fantasia, drama, mas os diálogos e o enredo do livro enveredariam para escolhas que teriam impacto direto na direção do roteiro seja para algo ruim ou para algo bom isso vai depender das escolhas de quem está interagindo e prestando atenção nas informações que estão lhe sendo passadas no decorrer da história.
 
-	&mdash; Entendi &mdash; Falou Pablo &mdash; essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
-	&mdash; E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou &mdash; falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato.
+	— Entendi — Falou Pablo — essa me parece uma iniciativa interessante Danielle complicado vai ser colocar as informações do ensino médio dentro da narrativa.
+	— E é por isso que eu quero que vocês trabalhem comigo, eita a comida chegou — falei olhando para o garçom que preparava a mesa, meu anúncio foi acompanhado de salvas e então nos deleitamos com o prato.
 
-	&mdash; Em meio a uma garfada e outra eu escutei meus amigos concordando com a minha proposta o que me deixou bastante feliz porque Deus sabe que eu sou péssima em química, eu me esforço, mas simplesmente não entra na minha cabeça, porém a Vivian Clarissa sabe explicar esse conteúdo como ninguém depois que eu dei a primeira garfada no prato eu entrei em pânico olhei pra Karol e falei com o pouco de ar que passava na minha garganta:
+	— Em meio a uma garfada e outra eu escutei meus amigos concordando com a minha proposta o que me deixou bastante feliz porque Deus sabe que eu sou péssima em química, eu me esforço, mas simplesmente não entra na minha cabeça, porém a Vivian Clarissa sabe explicar esse conteúdo como ninguém depois que eu dei a primeira garfada no prato eu entrei em pânico olhei pra Karol e falei com o pouco de ar que passava na minha garganta:
 
-	&mdash; Karol?Quais são os ingredientes desse prato? &mdash; Karol olhou pra mim assustada pegou o cardápio e começou a gritar socorro em algum momento eu devo ter caído no chão por quê comecei a encher meus amigos do chão o biólogo me perguntava onde estava a minha epinefrina eu tentei falar que estava no carro, mas nada saía ou entrava, não demorou muito e eu vi um túnel de luz eu corri pra longe dele obviamente, mas ele acabou me alcançando.
+	— Karol? Quais são os ingredientes desse prato? — Karol olhou pra mim assustada pegou o cardápio e começou a gritar socorro em algum momento eu devo ter caído no chão por quê comecei a encher meus amigos do chão o biólogo me perguntava onde estava a minha epinefrina eu tentei falar que estava no carro, mas nada saía ou entrava, não demorou muito e eu vi um túnel de luz eu corri pra longe dele obviamente, mas ele acabou me alcançando.
 
 
 
@@ -365,231 +296,193 @@ Escolha
 
 
 
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[OBS: equipe-&gt;Equipe]]</tw-passagedata><tw-passagedata pid="14" name="Passagem-1.1.2" tags="" position="301,38" size="100,100">
-	&mdash; Eai alguém aqui já tinha ido nesse restaurante antes?
-	&mdash; Eu não &mdash; respondeu o grupo em unissom o que acabou culminando em algumas risadas.
-	&mdash; Interessante a gente estar indo para um restaurante minha aula hoje na faculdade foi sobre sistema digestivo
-	&mdash; Foi? Uma coisa que eu sempre fui curiosa é sobre por que ocorre do estômago roncar? Tipo claro que isso não está associado ao fato do meu ronco estomacal parecer um dragão medieval, obviamente, mas eu sempre tive essa curiosidade – indaguei da forma mais sensível e discreta que pude fazer.
-	&mdash; O Biólogo riu e foi logo respondendo a minha pergunta:
-	&mdash; Isso acontece por causa dos movimentos de contração no nosso estômago, que empurram os alimentos que a gente ingere pros nossos intestinos. Esse fenômeno se chama borborigmo, e essa movimentação de alimento e ar no nosso estômago gera o sinal sonoro que a gente chama de ‘’ronco’’ do estômago.
-	&mdash; Mas gente, isso acontece do nada? – Perguntou o Filósofo ao meu lado.
-	&mdash; Esse processo é estimulado por uma série de hormônios como a gastrina, secretina e colecistocinina, enquanto o movimento do estômago é regulado por um neurotransmissor chamado acetilcolina. – Esclareceu de novo o Biólogo.
-	&mdash; E por quê minha barriga dói depois que eu como 12 pedaços de pizza?
-	&mdash; Você não come 12 pedaços de pizza…...come? &mdash;  falou ele meio exaltado me olhando estranho.
-	&mdash; Claro que não, eu como 15, mas quando chega no 12° minha barriga começa a doer &mdash; respondi de forma solene. Ele soltou um meio sorriso e me respondeu:
-	&mdash; O excesso de alimento no nosso estômago faz as contrações ficarem mais lentas, estimuladas pelos hormônios GIP e GLP-1, e consequentemente nos sentimos mais pesados e com um incômodo, por que comemos mais que a quantidade que nosso estômago consegue armazenar normalmente.
-	&mdash; Mas por quanto tempo será que se fica sentindo essas dores? Da última vez essa daí fez a gente ser expulso do rodízio do restaurante e passou pelo menos uma hora gemendo com de dor de tanto que comeu – Indagou Pablo, eu dei um soco de leve no braço dele que esquivou de forma dramática e cômica, João riu da palhaçada e foi respondendo:
-	&mdash; Como o estômago é muito elástico, ele volta à sua capacidade de repouso após uma refeição farta. Demora algo em torno de 1h para ele voltar ao normal. – Respondeu João
-	&mdash; Bem, o que importa é que estarmos bem alimentados. Nossa, eu daria tudo pra repetir aquele rodízio de novo! – falei sonhando com a pizza daquele dia, borda de catupiry, azeitonas, hummm...
-	&mdash; Não obrigada nossos bolsos agradecem e eu nao quero mais ser bloqueada em um restaurante por conta desse seu buraco negro estomacal – falou Vívian
-	&mdash; Qual é!? Era o meu aniversário! &mdash; respondi indignada com as alfinetadas, sou muito orgulhosa das minhas skills como degustadora profissional.
-	&mdash; Nem vem que nesse dia eu quase quebro minha bússola ética por você e por quê que pizza glúten free são tão caras? &mdash; falou Pablo.
-	&mdash; Bússola ética? &mdash; falei.
-	&mdash; Se esqueceu que você queria que a gente saísse de fininho sem pagar minha bússola ética que entra em concordância com o meu querido  Kanti me diz para ser uma pessoa movida pela razão  e que ela deve caminhar de forma respeitosa  do indivíduo para o social e usufruir da hospitalidade daquele lugar sem lhe dar o devido pagamento certamente foge disso e venhamos e convenhamos não é fácil achar locais com comida gluten free.
-	&mdash; No fim fomos banidos do lugar de qualquer jeito, a barriga dela acompanhou o prejuízo das nossas carteiras, mas acho que apesar de serem caras o preço do rodízio não compensou o prejuízo do dono.
-	&mdash; Glúten free? &mdash; indagou João.
-	&mdash; Sim, eu sou celíaca se eu comer qualquer coisa com glúten eu vou dessa realidade pra cova.
-	&mdash; Eita meus pêsames, eu não sei o que eu faria sem trigo na minha vida adoro restaurantes de massas &mdash; respondeu João que emendou essa resposta com uma explicação do por quê meu estômago desafia as leis físicas de armazenamento &mdash; A produção de hormônios como grelina, NPY e AgRP da Dani deve ser bem mais alta que a nossa, que são hormônios que nos fazem sentir fome o que explicaria essa capacidade absurda de ingerir comida – Falou João sorrindo.
-	&mdash; Falando sobre aula, minha aula foi sobre funções orgânicas &mdash; começou Vivian.
-	&mdash; Funções orgânicas? &mdash; perguntei.
-	&mdash; Sim, é um grupo de substâncias derivadas do carbono que possuem propriedades químicas semelhantes que podem ser definidas por um átomo ou um grupo de átomos que podem ser denominados como grupo funcional que de certa forma ajuda a identificar que tipo de função orgânica é aquela que estamos observando.
-	&mdash; legal &mdash; respondi, entendi mais ou menos o que ela falou, mas acho que posso tirar mais dúvidas sobre isso no restaurante.
-	&mdash; Uma coisa interessante é que se olharmos o cardápio do restaurante que iremos agora eu posso até te explicar que tipo de função tem em determinadas comidas &mdash; falou ela logo em seguida.
-	&mdash; Interessante então quando chegarmos lá eu vou te encher de perguntas &mdash; ela riu.
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[OBS: equipe-&gt;Equipe]]</tw-passagedata><tw-passagedata pid="14" name="Passagem-1.1.2" tags="" position="294,28" size="100,100">
+	— E aí, alguém aqui já tinha ido nesse restaurante antes?
+	— Eu não — respondeu o grupo em uníssono, o que acabou culminando em algumas risadas.
+	— Interessante a gente estar indo para um restaurante, minha aula hoje na faculdade foi sobre sistema digestivo.
+	— Foi? Uma coisa que eu sempre fui curiosa é sobre por que ocorre do estômago roncar? Tipo, claro que isso não está associado ao fato do meu ronco estomacal parecer um dragão medieval, obviamente, mas eu sempre tive essa curiosidade – indaguei da forma mais sensível e discreta que pude fazer.
+	— O biólogo riu e foi logo respondendo a minha pergunta:
+	— Isso acontece por causa dos movimentos de contração no nosso estômago, que empurram os alimentos que a gente ingere pros nossos intestinos. Esse fenômeno se chama borborigmo, e essa movimentação de alimento e ar no nosso estômago gera o sinal sonoro que a gente chama de “ronco” do estômago.
+	— Mas gente, isso acontece do nada? – Perguntou o filósofo ao meu lado.
+	— Esse processo é estimulado por uma série de hormônios como a gastrina, secretina e colecistocinina, enquanto o movimento do estômago é regulado por um neurotransmissor chamado acetilcolina. – Esclareceu de novo o biólogo.
+	— E por quê minha barriga dói depois que eu como 12 pedaços de pizza?
+	— Você não come 12 pedaços de pizza… come? —  falou ele meio exaltado me olhando estranho.
+	— Claro que não, eu como 15, mas quando chega no 12º minha barriga começa a doer — respondi de forma solene. Ele soltou um meio sorriso e me respondeu:
+	— O excesso de alimento no nosso estômago faz as contrações ficarem mais lentas, estimuladas pelos hormônios peptídeo inibidor gástrico (GIP) e peptídeo semelhante a glucagon 1 (GLP-1), e consequentemente nos sentimos mais pesados e com um incômodo, por que comemos mais que a quantidade que nosso estômago consegue armazenar normalmente.
+	— Mas por quanto tempo será que se fica sentindo essas dores? Da última vez, essa daí fez a gente ser expulso do rodízio do restaurante e passou pelo menos uma hora gemendo com de dor de tanto que comeu – Indagou Pablo, eu dei um soco de leve no braço dele que esquivou de forma dramática e cômica, João riu da palhaçada e foi respondendo:
+	— Como o estômago é muito elástico, ele volta à sua capacidade de repouso após uma refeição farta. Demora algo em torno de 1 h para ele voltar ao normal. – Respondeu João.
+	— Bem, o que importa é que estarmos bem alimentados. Nossa, eu daria tudo pra repetir aquele rodízio de novo! – falei sonhando com a pizza daquele dia, borda de catupiry, azeitonas, hummm…
+	— Não, obrigada, nossos bolsos agradecem e eu nao quero mais ser bloqueada em um restaurante por conta desse seu buraco negro estomacal – falou Vívian
+	— Qual é!? Era o meu aniversário! — respondi indignada com as alfinetadas, sou muito orgulhosa das minhas //skills// como degustadora profissional.
+	— Nem vem que nesse dia eu quase quebro minha bússola ética por você e por que pizza //gluten free// é tão cara? — falou Pablo.
+	— Bússola ética? — falei.
+	— Se esqueceu que você queria que a gente saísse de fininho sem pagar minha bússola ética que entra em concordância com o meu querido Kant me diz para ser uma pessoa movida pela razão  e que ela deve caminhar de forma respeitosa  do indivíduo para o social. Usufruir da hospitalidade daquele lugar sem lhe dar o devido pagamento certamente foge disso, e convenhamos, não é fácil achar locais com comida //gluten free//.
+	— No fim fomos banidos do lugar de qualquer jeito, a barriga dela acompanhou o prejuízo das nossas carteiras. Apesar de pagarmos caro pelo rodízio, o dono teve prejuízo.
+	— //Gluten free//? — indagou João.
+	— Sim, eu sou celíaca, se eu comer qualquer coisa com glúten eu vou dessa realidade pra cova.
+	— Eita, meus pêsames, eu não sei o que eu faria sem trigo na minha vida. Adoro restaurantes de massas — respondeu João, que emendou essa resposta com uma explicação do porquê meu estômago desafia as leis físicas de armazenamento — A produção de hormônios como grelina, neuropeptídeo Y (NPY) e proteína r-Agouti (AgRP) da Dani deve ser bem mais alta que a nossa, que são hormônios que nos fazem sentir fome o que explicaria essa capacidade absurda de ingerir comida – Falou João sorrindo.
+	— Falando sobre aula, minha aula foi sobre funções orgânicas — começou Vivian.
+	— Funções orgânicas? — perguntei.
+	— Sim, compostos orgânicos com certos grupamentos possuem propriedades químicas semelhantes. A presença desses grupamentos caracteriza as funções orgânicas. Estes grupamentos, que pode ser de um átomo ou um grupo de átomos, são denominados grupos funcionais.
+	— Legal! — respondi, entendi mais ou menos o que ela falou, mas acho que posso tirar mais dúvidas sobre isso no restaurante.
+	— Uma coisa interessante é que se olharmos o cardápio do restaurante que iremos agora eu posso até te explicar que funções orgânicas estão presentes nas comidas — falou ela logo em seguida.
+	— Interessante, então quando chegarmos lá eu vou te encher de perguntas — ela riu.
+
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo-&gt;Passagem-1.1.3]]</tw-passagedata><tw-passagedata pid="15" name="Passagem-1.1.3" tags="" position="415,27" size="100,100">&lt;img src=&quot;https://i.pinimg.com/564x/59/8b/8b/598b8bf2932b85c22dc719096eabf106.jpg&quot;&gt;
 
 
 
 
+ O restaurante era tão perto que não demorou nem 20 minutos e já estávamos chegando. No local ocupamos uma mesa para cinco pessoas e a conversa, que já havia sido engatada no carro, deslanchou de  uma vez quando nos sentamos à mesa. Na hora de fazer o pedido, a Karol foi a nossa heroína:
 
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo-&gt;Passagem-1.1.3]]</tw-passagedata><tw-passagedata pid="15" name="Passagem-1.1.3" tags="" position="422,37" size="100,100">&lt;img src=&quot;https://i.pinimg.com/564x/59/8b/8b/598b8bf2932b85c22dc719096eabf106.jpg&quot;&gt;
+	— Bom, pessoal, eu não sei vocês, mas acho que está na hora de comer! — disse a letrista. — então me deixem salvar o dia de vocês traduzindo o cardápio sem usar o Google tradutor, não é? — Falou a letrista soltando um relâmpago dos olhos na direção da química. E que a verdade seja dita, estudar no exterior não me transforma em uma pessoa bilíngue automaticamente. Deus sabe as vergonhas que passei até agora tentando falar um idioma que eu só entendo parcialmente. A Karol certamente sabe quantas vezes me livrou de situações desastrosas, logo qualquer ego inflado dela tem uma história de carnaval de respaldo.
 
-
-
-
- O restaurante era tão perto que não foi nem 20 minutos direito e já estávamos chegando no local ocupamos uma mesa para 5 pessoas e a conversa que já havia sido engatada no carro deslanchou de  uma vez quando sentamos a mesa na hora de fazer o pedido a Karol foi a nossa heroína:
-
-	&mdash; Bom pessoal, eu não sei vocês mas acho que está na hora de comer! &mdash; disse a letrista. &mdash; então deixe salvar o dia de vocês traduzindo o cardápio sem usar o google tradutor, não é? &mdash; Falou a letrista soltando um relâmpago dos olhos na direção da Química. E que a verdade seja dita estudar no exterior não me transforma em uma pessoa bilíngue automaticamente e Deus sabe as vergonhas que passei até agora tentando falar um idioma que eu só entendo parcialmente e a Karol certamente sabe quantas vezes me livrou de situações desastrosas, logo qualquer ego inflado dela tem uma história de carnaval de respaldo.
-
- A Vivian Clarissa com cara de culpada sorriu sem graça baixando o celular vagarosamente. 
-	&mdash; É claro! Por que você está me olhando desse jeito?Eu tava olhando meu zap…….. é meu zap &mdash; respondeu tremendo um pouco a voz .
-
-	&mdash; Ótimo! Vamos ver o que temos aqui então. &mdash; respondeu Karol devolvendo seu olhos de falcão para o cardápio. Após correr os olhos por ele, ela foi elucidando os nomes das refeições e seus conteúdos. &mdash; A primeira deliciosa opção chama-se  fish and chips que nada mais é que um prato com peixe frito, ervilhas e batatinha frita. Bem equilibrado em minha humilde opinião. &mdash; disse ela olhando de relance para a Química  que parecia refletir sobre o tal &quot;equilíbrio&quot; do prato.
-	
- Eu obviamente em minha total capacidade de comunicação libras que não existe, sinalizei para que Vivian Clarissa fala-se mais de suas funções orgânicas e ela milagrosamente entendeu e me respondeu chamando atenção da mesa:
+ A Vivian Clarissa com cara de culpada sorriu sem graça baixando o celular vagarosamente.
  
-	&mdash; OK, falando de forma mais nutricional, a carne de peixe apresenta a mesma proporção de proteínas que as carnes bovinas, suínas e de aves, porém de qualidade superior devido ao fato de conter menor teor de tecido conjuntivo &mdash; constituído de proteínas de baixa qualidade &mdash; do que a de outras carnes. A composição de aminoácidos essenciais (histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano e valina) no peixe é completa e bastante importante para a saúde do organismo humano. As proteínas são macromoléculas formadas pela combinação de aminoácidos. Os aminoácidos são substâncias que apresentam um grupo amino (NH&lt;sub&gt;2&lt;/sub&gt;) e um grupo carboxila (COOH) em carbonos vizinhos.
+	— É claro! Por que você está me olhando desse jeito? Eu tava olhando meu zap… É, meu zap — respondeu tremendo um pouco a voz.
+
+	— Ótimo! Vamos ver o que temos aqui então. — respondeu Karol devolvendo seu olhos de falcão para o cardápio. Após correr os olhos por ele, ela foi elucidando os nomes das refeições e seus conteúdos. — A primeira deliciosa opção chama-se  //fish and chips// que nada mais é que um prato com peixe frito, ervilhas e batatinha frita. Bem equilibrado em minha humilde opinião. — disse ela olhando de relance para a química, que parecia refletir sobre o tal “equilíbrio” do prato.
+	
+ Eu obviamente em minha total capacidade de comunicação em libras (que não existe), sinalizei para que a Vivian Clarissa falasse mais sobre as funções orgânicas, e ela milagrosamente entendeu e me respondeu chamando a atenção da mesa:
+ 
+	— OK, falando de forma mais nutricional, a carne de peixe apresenta a mesma proporção de proteínas que as carnes bovinas, suínas e de aves, porém de qualidade superior devido ao fato de conter menor teor de tecido conjuntivo — constituído de proteínas de baixa qualidade — do que a de outras carnes. A composição de aminoácidos essenciais (histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano e valina) no peixe é completa e bastante importante para a saúde do organismo humano. As proteínas são macromoléculas formadas pela combinação de aminoácidos. Os aminoácidos são substâncias que apresentam um grupamento amino (–NH&lt;sub&gt;2&lt;/sub&gt;) e um grupamento carboxila (–COOH) em carbonos vizinhos.
 	
 	
 	&lt;img src=&quot;https://pablobusatto.com.br/ufc/tecnodocencia/made/img/aminoacido.svg&quot; width=&quot;50%&quot;&gt;
-	(Um grupo amino e um grupo carboxila em carbonos vizinhos)
-	
-	
-	
-	
+	(Um grupamento amino e um grupamento carboxila em carbonos vizinhos)
 	
 (t8n-time:1s)[[Próximo-&gt;Passagem-1.1.4]]	
-	</tw-passagedata><tw-passagedata pid="16" name="Passagem-1.1.4" tags="" position="544,35" size="100,100">	&mdash; Então se eu comer peixe com mais frequência eu posso me livrar das  tentativas de envenenamento por fígado da minha mãe? &mdash; falou Pablo
-	&mdash; Não é bem assim, mas o peixe de fato é rico em proteínas.
-Bem, continuando. Nossa segunda opção seria chicken and salad e como vocês devem imaginar, é um prato com frango assado e salada. Não gostaria de ter vindo ao outro lado do mundo pra comer frango e salada, mas fica a critério de vocês. &mdash; Ironizou Karol, eu olhei para Vivian Clarissa.
-	&mdash; O frango é um dos principais alimentos que são ricos em proteínas. As proteínas são macromoléculas essenciais para o corpo humano que são formadas pela combinação de aminoácidos. Esses aminoácidos são substâncias que apresentam um grupo amino (NH&lt;sub&gt;2&lt;/sub&gt;) e um grupo carboxila (COOH). O ácido etanoico pode ser usado para vários fins. O mais comum é o próprio vinagre. Vinagre é comumente utilizado para temperar saladas. O ácido acético ou etanóico é o principal componente do vinagre, sendo responsável por seu sabor azedo.A partir dela pode-se perceber a presença de um ácido carboxílico em sua estrutura caracterizado por um grupo carboxila na extremidade da cadeia. &mdash; dessa vez ela tirou uma caneta da bolsa e desenhou para mim os radicais e símbolo daquela língua estranha chamada química.
-	
+	</tw-passagedata><tw-passagedata pid="16" name="Passagem-1.1.4" tags="" position="536,25" size="100,100">	— Então, se eu comer peixe com mais frequência, eu posso me livrar das  tentativas de envenenamento por fígado da minha mãe? — falou Pablo
+	— Não é bem assim, mas o peixe de fato é rico em proteínas.
+Bem, continuando. Nossa segunda opção seria //chicken and salad// e como vocês devem imaginar, é um prato com frango assado e salada. Não gostaria de ter vindo ao outro lado do mundo pra comer frango e salada, mas fica a critério de vocês. — Ironizou Karol, eu olhei para Vivian Clarissa.
+	— O frango é um dos principais alimentos que são ricos em proteínas. As proteínas são macromoléculas essenciais para o corpo humano que são formadas pela combinação de aminoácidos. Esses aminoácidos são substâncias que apresentam um grupo amino (–NH&lt;sub&gt;2&lt;/sub&gt;) e um grupo carboxila (–COOH). O ácido acético pode ser usado para vários fins. O mais comum é o próprio vinagre. Vinagre é comumente utilizado para temperar saladas. O ácido acético ou etanoico é o principal componente do vinagre, sendo responsável por seu sabor azedo. Sua estrutura é caracterizada por um grupo carboxila na extremidade da cadeia. — dessa vez ela tirou uma caneta da bolsa e desenhou para mim as estruturas daqueles compostos químicos estranhos.
 	
 &lt;img src=&quot;https://pablobusatto.com.br/ufc/tecnodocencia/made/img/acido-acetico.svg&quot; width=&quot;50%&quot;&gt;
 	(ácido acético)
 	
-	
-	
-	
-	
-	&mdash; Continuandoooo &mdash; falou Karol cantarolando &mdash; A ultima opção se chama 12 piece bucket que é um balde com 12 peças de perfei... digo, frango gorduroso e empanado. Uma boa porção que daria pra todo mundo comer bem. É bem comum ver Youtubers comendo isso naqueles vídeos esquisitos de Mukbang. &mdash; Comentou Karol com os colegas.
-	&mdash; Mukbang? &mdash; O filósofo perguntou.
-	&mdash; É uma tendência que surgiu na internet e consiste basicamente de você se filmar comendo quantidades gigantes de comida olhando pra câmera. &mdash; Explicou. 
-	&mdash; Parece interessante. &mdash; Replicou o filósofo.
-	&mdash; Me parece muito bom &mdash; falei.
-	&mdash; Parece que eles tem um bom plano de saúde. &mdash; Falou Vivian Clarissa fazendo a gente rir.
-	&mdash; Enfim! &mdash; Ela interrompeu desviando da pergunta. &mdash; Esses são os pratos, decidam antes que ouçam minha barriga roncar mais alto.
-	&mdash; Olha, eu acho que é válido nós escolhermos todos esses pratos e fazermos uma degustação completa. Meu estômago tá pedindo socorro, gente! – disse João, não sei por quê senti um ar de desafio nessa afirmação, ele acha que ganha de mim neste terreno? Ó coitado meu bolso vai sangrar hoje, Pablo irá chorar junto, mas eu não vou perder isso aqui não.
-
-
-
+	— Continuandoooo — falou Karol cantarolando — A ultima opção se chama //12 piece bucket// que é um balde com 12 peças de perfei... digo, frango gorduroso e empanado. Uma boa porção que daria pra todo mundo comer bem. É bem comum ver //youtubers// comendo isso naqueles vídeos esquisitos de //mukbang//. — Comentou Karol com os colegas.
+	— //Mukbang//? — O filósofo perguntou.
+	— É uma tendência que surgiu na internet e consiste basicamente de você se filmar comendo quantidades gigantes de comida olhando pra câmera. — Explicou.
+	— Parece interessante. — Replicou o filósofo.
+	— Me parece muito bom — falei.
+	— Parece que eles têm um bom plano de saúde. — Falou Vivian Clarissa fazendo a gente rir.
+	— Enfim! — Ela interrompeu desviando da pergunta. — Esses são os pratos, decidam antes que ouçam minha barriga roncar mais alto.
+	— Olha, eu acho que é válido nós escolhermos todos esses pratos e fazermos uma degustação completa. Meu estômago tá pedindo socorro, gente! – disse João, não sei por que senti um ar de desafio nessa afirmação, ele acha que ganha de mim neste terreno? Ó coitado, meu bolso vai sangrar hoje, Pablo irá chorar junto, mas eu não vou perder isso aqui não.
 
  Escolha:
 
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-right&quot;)+(t8n-time:1s)[[12 piece bucket-&gt;12 pieces bucket]] 
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[fish and chips-&gt;fish and chips]]
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[chicken and salad-&gt;chicken and salad]]
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-right&quot;)+(t8n-time:1s)[[//12 piece bucket//-&gt;12 pieces bucket]]
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[//fish and chips//-&gt;fish and chips]]
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[//chicken and salad//-&gt;chicken and salad]]
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Degustação Completa-&gt;Degustação completa]]
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Não sei, perguntar ao garçom-&gt;Garçom-1.1]]
-</tw-passagedata><tw-passagedata pid="17" name="Passagem-1.2.2" tags="" position="301,345" size="100,100">
-	&mdash; Interessante a gente estar indo para um restaurante, minha aula hoje na faculdade foi sobre sistema digestivo &mdash; falou João o biólogo da turma.
-	&mdash; Foi? Uma coisa que eu sempre fui curiosa é sobre por que ocorre do estômago roncar? Tipo claro que isso não está associado ao fato do meu ronco estomacal parecer um dragão medieval, obviamente, mas eu sempre tive essa curiosidade – indaguei da forma mais sensível e discreta que pude fazer. O Biólogo riu e foi logo respondendo a minha pergunta:
-	&mdash; Isso acontece por causa dos movimentos de contração no nosso estômago, que empurram os alimentos que a gente ingere pros nossos intestinos. Esse fenômeno se chama borborigmo, e essa movimentação de alimento e ar no nosso estômago gera o sinal sonoro que a gente chama de ‘’ronco’’ do estômago.
-	&mdash; Mas gente, isso acontece do nada? – Perguntou Karol a Letrista no banco de trás.
-	&mdash; Esse processo é estimulado por uma série de hormônios como a gastrina, secretina e colecistocinina, enquanto o movimento do estômago é regulado por um neurotransmissor chamado acetilcolina. – Esclareceu de novo o Biólogo.
-	&mdash; E por quê minha barriga dói depois que eu como 12 pedaços de pizza?
-	&mdash; Sério 12 pedaços? &mdash;  falou ele meio maravilhado, não porquê mas acho que agora não sou mais a única comilona do grupo.
-	&mdash; Claro que não, ela come 15, mas quando chega no 12° pedaço ela vai mais devagar porque a barriga dói e meu bolso também &mdash; respondeu Pablo choramingando no final. João soltou um meio sorriso e falou:
-	&mdash; O excesso de alimento no nosso estômago faz as contrações ficarem mais lentas, estimuladas pelos hormônios GIP e GLP-1, e consequentemente nos sentimos mais pesados e com um incômodo, por que comemos mais que a quantidade que nosso estômago consegue armazenar normalmente.
-	&mdash; Mas por quanto tempo será que se fica sentindo essas dores? Da última vez essa daí fez a gente ser expulso do rodízio do restaurante e passou pelo menos uma hora gemendo de dor de tanto que comeu – Indagou Vivian Clarissa no momento que ela olhou para mim no retrovisor eu lhe dei um careta que fez ela rir:
-	&mdash; Como o estômago é muito elástico, ele volta à sua capacidade de repouso após uma refeição farta. Demora algo em torno de 1h para ele voltar ao normal. – Respondeu João
-	&mdash; Bem, o que importa é estarmos bem alimentados. Nossa, eu daria tudo pra repetir aquele rodízio de novo! – falei sonhando com a pizza daquele dia, borda de catupiry, azeitonas, hummm..
-	&mdash; Não obrigada nossos bolsos agradecem e eu não quero mais ser bloqueada de um restaurante por conta desse seu buraco negro estomacal – falou Vívian
-	&mdash; Qual é!? Era o meu aniversário! &mdash; respondi indignada com as alfinetadas, sou muito orgulhosa das minhas skills como degustadora profissional.
-	&mdash; Nem vem à minha bússola ética sempre fica no balanço quando estou com você e por quê que pizza gluten free são tão caras? &mdash; falou Pablo.
-	&mdash; Bússola ética? &mdash; falei.
-	&mdash; Se esqueceu que você queria que a gente saísse de fininho sem pagar? A ética é um norteador de decisões e a minha bússola ética entra em concordância com as do meu querido  Kanti que me diz para ser uma pessoa movida pela razão  e que ela deve caminhar de forma respeitosa  do indivíduo para o social e usufruir da hospitalidade daquele lugar sem lhe dar o devido pagamento certamente foge disso e venhamos e convenhamos não é fácil achar locais com comida gluten free.
-	&mdash; No fim fomos banidos do lugar de qualquer jeito, a barriga dela acompanhou o prejuízo das nossas carteiras, mas acho que apesar de serem caras o preço do rodízio não compensou o prejuízo do dono.
-	&mdash; Glúten free? &mdash; indagou João.
-	&mdash; Sim, eu sou celíaca se eu comer qualquer coisa com glúten eu vou dessa realidade pra cova minhas reações são sempre violentas.
-	&mdash; Eita meus pêsames, eu não sei o que eu faria sem trigo na minha vida adoro qualquer comida que contenha massas &mdash; respondeu João que emendou essa resposta com uma explicação do por quê meu estômago desafia as leis físicas de armazenamento &mdash; A produção de hormônios como grelina, NPY e AgRP da Dani deve ser bem mais alta que a nossa, que são hormônios que nos fazem sentir fome o que explicaria essa capacidade absurda de ingerir comida – Falou João sorrindo.
-	&mdash; Falando sobre aula, minha aula foi sobre funções orgânicas &mdash; começou Vivian.
-	&mdash; Funções orgânicas? &mdash; perguntei.
-	&mdash; Sim, é um grupo de substâncias derivadas do carbono que possuem propriedades químicas semelhantes que podem ser definidos por um átomo ou um grupo de átomos que podem ser denominados como grupo funcional que de certa forma ajuda a identificar que tipo de função orgânica é aquela que estamos observando.
-	&mdash; legal &mdash; respondi, entendi mais ou menos o que ela falou, mas acho que posso tirar mais dúvidas sobre isso no restaurante.
-	&mdash; Uma coisa interessante é que se olharmos o cardápio do restaurante que iremos agora eu posso até te explicar que tipo de função tem em determinadas comidas &mdash; falou ela logo em seguida.
-	&mdash; Interessante quando então quando chegarmos lá eu vou te encher de perguntas &mdash; ela riu.
-
-
-
-
+</tw-passagedata><tw-passagedata pid="17" name="Passagem-1.2.2" tags="" position="301,345" size="100,100">	— Interessante a gente estar indo para um restaurante, minha aula hoje na faculdade foi sobre sistema digestivo — falou João, o biólogo da turma.
+	— Foi? Uma coisa que eu sempre fui curiosa é sobre por que ocorre do estômago roncar? Tipo, claro que isso não está associado ao fato do meu ronco estomacal parecer um dragão medieval, obviamente, mas eu sempre tive essa curiosidade – indaguei da forma mais sensível e discreta que pude fazer. O biólogo riu e foi logo respondendo a minha pergunta:
+	— Isso acontece por causa dos movimentos de contração no nosso estômago, que empurram os alimentos que a gente ingere pros nossos intestinos. Esse fenômeno se chama borborigmo, e essa movimentação de alimento e ar no nosso estômago gera o sinal sonoro que a gente chama de “ronco” do estômago.
+	— Mas gente, isso acontece do nada? – Perguntou Karol a letrista no banco de trás.
+	— Esse processo é estimulado por uma série de hormônios como a gastrina, secretina e colecistocinina, enquanto o movimento do estômago é regulado por um neurotransmissor chamado acetilcolina. – Esclareceu de novo o biólogo.
+	— E por quê minha barriga dói depois que eu como 12 pedaços de pizza?
+	— Sério, 12 pedaços?! —  falou ele maravilhado, acho que não sou a única comilona do grupo.
+	— Claro que não, ela come 15, mas quando chega no 12º pedaço ela vai mais devagar porque a barriga dói e meu bolso também — respondeu Pablo choramingando no final. João soltou um meio sorriso e falou:
+	— O excesso de alimento no nosso estômago faz as contrações ficarem mais lentas, estimuladas pelos hormônios peptídeo inibidor gástrico (GIP) e peptídeo semelhante a glucagon 1 (GLP-1), e consequentemente nos sentimos mais pesados e com um incômodo, por que comemos mais que a quantidade que nosso estômago consegue armazenar normalmente.
+	— Mas por quanto tempo será que se fica sentindo essas dores? Da última vez essa daí fez a gente ser expulso do rodízio do restaurante e passou pelo menos uma hora gemendo de dor de tanto que comeu – Indagou Vivian Clarissa no momento que ela olhou para mim no retrovisor eu lhe dei um careta que fez ela rir:
+	— Como o estômago é muito elástico, ele volta à sua capacidade de repouso após uma refeição farta. Demora algo em torno de 1 h para ele voltar ao normal. – Respondeu João
+	— Bem, o que importa é estarmos bem alimentados. Nossa, eu daria tudo pra repetir aquele rodízio de novo! – falei sonhando com a pizza daquele dia, borda de catupiry, azeitonas, hummm..
+	— Não, obrigada, nossos bolsos agradecem e eu não quero mais ser bloqueada de um restaurante por conta desse seu buraco negro estomacal – falou Vívian
+	— Qual é!? Era o meu aniversário! — respondi indignada com as alfinetadas, sou muito orgulhosa das minhas //skills// como degustadora profissional.
+	— Nem vem à minha bússola ética sempre fica no balanço quando estou com você e por quê que pizza //gluten free// são tão caras? — falou Pablo.
+	— Bússola ética? — falei.
+	— Se esqueceu que você queria que a gente saísse de fininho sem pagar? A ética é um norteador de decisões e a minha bússola ética entra em concordância com as do meu querido  Kant que me diz para ser uma pessoa movida pela razão  e que ela deve caminhar de forma respeitosa  do indivíduo para o social. Usufruir da hospitalidade daquele lugar sem lhe dar o devido pagamento certamente foge disso, e convenhamos, não é fácil achar locais com comida //gluten free//.
+	— No fim fomos banidos do lugar de qualquer jeito, a barriga dela acompanhou o prejuízo das nossas carteiras. Apesar de pagarmos caro pelo rodízio, o dono teve prejuízo.
+	— //Gluten free//? — indagou João.
+	— Sim, eu sou celíaca, se eu comer qualquer coisa com glúten eu vou dessa realidade pra cova, minhas reações são sempre violentas.
+	— Eita, meus pêsames! Eu não sei o que eu faria sem trigo na minha vida. Adoro qualquer comida que contenha massas — respondeu João, que emendou essa resposta com uma explicação do por quê meu estômago desafia as leis físicas de armazenamento — A produção de hormônios como grelina, neuropeptídeo Y (NPY) e proteína r-Agouti (AgRP) da Dani deve ser bem mais alta que a nossa, que são hormônios que nos fazem sentir fome o que explicaria essa capacidade absurda de ingerir comida – Falou João sorrindo.
+	— Falando sobre aula, minha aula foi sobre funções orgânicas — começou Vivian.
+	— Funções orgânicas? — perguntei.
+	— Sim, compostos orgânicos com certos grupamentos possuem propriedades químicas semelhantes. A presença desses grupamentos caracteriza as funções orgânicas. Estes grupamentos, que pode ser de um átomo ou um grupo de átomos, são denominados grupos funcionais.
+	— Legal — respondi, entendi mais ou menos o que ela falou, mas acho que posso tirar mais dúvidas sobre isso no restaurante.
+	— Uma coisa interessante é que se olharmos o cardápio do restaurante que iremos agora eu posso até te explicar que funções orgânicas estão presentes nas comidas — falou ela logo em seguida.
+	— Interessante, quando então quando chegarmos lá eu vou te encher de perguntas — ela riu.
 
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo-&gt;Passagem-1.2.3]]</tw-passagedata><tw-passagedata pid="18" name="Passagem-1.2.3" tags="" position="421,345" size="100,100">&lt;img src=&quot;https://i.pinimg.com/564x/59/8b/8b/598b8bf2932b85c22dc719096eabf106.jpg&quot;&gt;
 
-
-
  O restaurante era tão perto que não foi nem 20 minutos direito e já estávamos chegando no local ocupamos uma mesa para 5 pessoas e a conversa que já havia sido engatada no carro deslanchou de  uma vez quando sentamos a mesa na hora de fazer o pedido a Karol foi a nossa heroína:
 
-	&mdash; Bom pessoal, eu não sei vocês mas acho que está na hora de comer! &mdash; disse a letrista. &mdash; então deixe salvar o dia de vocês traduzindo o cardápio sem usar o google tradutor, não é? &mdash; Falou a letrista soltando um relâmpago dos olhos na direção da Química. E que a verdade seja dita estudar no exterior não me transforma em uma pessoa bilíngue automaticamente e Deus sabe as vergonhas que passei até agora tentando falar um idioma que eu só entendo parcialmente e a Karol certamente sabe quantas vezes me livrou de situações desastrosas, logo qualquer ego inflado dela tem uma história de carnaval de respaldo.
+	— Bom pessoal, eu não sei vocês mas acho que está na hora de comer! — disse a letrista. — então deixe salvar o dia de vocês traduzindo o cardápio sem usar o google tradutor, não é? — Falou a letrista soltando um relâmpago dos olhos na direção da Química. E que a verdade seja dita estudar no exterior não me transforma em uma pessoa bilíngue automaticamente e Deus sabe as vergonhas que passei até agora tentando falar um idioma que eu só entendo parcialmente e a Karol certamente sabe quantas vezes me livrou de situações desastrosas, logo qualquer ego inflado dela tem uma história de carnaval de respaldo.
 
  A Vivian Clarissa com cara de culpada sorriu sem graça baixando o celular vagarosamente. 
-	&mdash; É claro! Por que você está me olhando desse jeito?Eu tava olhando meu zap…….. é meu zap &mdash; respondeu tremendo um pouco a voz .
+	— É claro! Por que você está me olhando desse jeito?Eu tava olhando meu zap… é meu zap — respondeu tremendo um pouco a voz .
 
-	&mdash; Ótimo! Vamos ver o que temos aqui então. &mdash; respondeu Karol devolvendo seu olhos de falcão para o cardápio. Após correr os olhos por ele, ela foi elucidando os nomes das refeições e seus conteúdos. &mdash; A primeira deliciosa opção chama-se  fish and chips que nada mais é que um prato com peixe frito, ervilhas e batatinha frita. Bem equilibrado em minha humilde opinião. &mdash; disse ela olhando de relance para a Química  que parecia refletir sobre o tal &quot;equilíbrio&quot; do prato.
+	— Ótimo! Vamos ver o que temos aqui então. — respondeu Karol devolvendo seu olhos de falcão para o cardápio. Após correr os olhos por ele, ela foi elucidando os nomes das refeições e seus conteúdos. — A primeira deliciosa opção chama-se  //fish and chips// que nada mais é que um prato com peixe frito, ervilhas e batatinha frita. Bem equilibrado em minha humilde opinião. — disse ela olhando de relance para a Química  que parecia refletir sobre o tal &quot;equilíbrio&quot; do prato.
 	
  Eu obviamente em minha total capacidade de comunicação libras que não existe, sinalizei para que Vivian Clarissa fala-se mais de suas funções orgânicas e ela milagrosamente entendeu e me respondeu chamando atenção da mesa:
  
-	&mdash; OK, falando de forma mais nutricional, a carne de peixe apresenta a mesma proporção de proteínas que as carnes bovinas, suínas e de aves, porém de qualidade superior devido ao fato de conter menor teor de tecido conjuntivo &mdash; constituído de proteínas de baixa qualidade &mdash; do que a de outras carnes. A composição de aminoácidos essenciais (histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano e valina) no peixe é completa e bastante importante para a saúde do organismo humano. As proteínas são macromoléculas formadas pela combinação de aminoácidos. Os aminoácidos são substâncias que apresentam um grupo amino (NH&lt;sub&gt;2&lt;/sub&gt;) e um grupo carboxila (COOH) em carbonos vizinhos.
-	
-	
-&lt;img src=&quot;https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/estrutura-do-aminoacido.jpg&quot;&gt;	
-	
-	
+	— OK, falando de forma mais nutricional, a carne de peixe apresenta a mesma proporção de proteínas que as carnes bovinas, suínas e de aves, porém de qualidade superior devido ao fato de conter menor teor de tecido conjuntivo — constituído de proteínas de baixa qualidade — do que a de outras carnes. A composição de aminoácidos essenciais (histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptofano e valina) no peixe é completa e bastante importante para a saúde do organismo humano. As proteínas são macromoléculas formadas pela combinação de aminoácidos. Os aminoácidos são substâncias que apresentam um grupo amino (–NH&lt;sub&gt;2&lt;/sub&gt;) e um grupo carboxila (–COOH) em carbonos vizinhos.
+
+&lt;img src=&quot;https://pablobusatto.com.br/ufc/tecnodocencia/made/img/aminoacido.svg&quot; width=&quot;50%&quot;&gt;	
+(Um grupamento amino e um grupamento carboxila em carbonos vizinhos)
 	
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo-&gt;Passagem-1.2.4]]
-</tw-passagedata><tw-passagedata pid="19" name="Passagem-1.2.4" tags="" position="542,345" size="100,100">	&mdash; Então se eu comer peixe com mais frequência eu posso me livrar das  tentativas de envenenamento por fígado da minha mãe? &mdash; falou Pablo
-	&mdash; Não é bem assim, mas o peixe de fato é rico em proteínas.
-Bem, continuando. Nossa segunda opção seria chicken and salad e como vocês devem imaginar, é um prato com frango assado e salada. Não gostaria de ter vindo ao outro lado do mundo pra comer frango e salada, mas fica a critério de vocês. &mdash; Ironizou Karol, eu olhei para Vivian Clarissa.
-	&mdash; O frango é um dos principais alimentos que são ricos em proteínas. As proteínas são macromoléculas essenciais para o corpo humano que são formadas pela combinação de aminoácidos. Esses aminoácidos são substâncias que apresentam um grupo amino (NH&lt;sub&gt;2&lt;/sub&gt;) e um grupo carboxila (COOH). O ácido etanoico pode ser usado para vários fins. O mais comum é o próprio vinagre. Vinagre é comumente utilizado para temperar saladas. O ácido acético ou etanóico é o principal componente do vinagre, sendo responsável por seu sabor azedo.A partir dela pode-se perceber a presença de um ácido carboxílico em sua estrutura caracterizado por um grupo carboxila na extremidade da cadeia. &mdash; dessa vez ela tirou uma caneta da bolsa e desenhou para mim os radicais e símbolo daquela língua estranha chamada química.
+</tw-passagedata><tw-passagedata pid="19" name="Passagem-1.2.4" tags="" position="536,343" size="100,100">	— Então se eu comer peixe com mais frequência eu posso me livrar das  tentativas de envenenamento por fígado da minha mãe? — falou Pablo
+	— Não é bem assim, mas o peixe de fato é rico em proteínas.
+Bem, continuando. Nossa segunda opção seria //chicken and salad// e como vocês devem imaginar, é um prato com frango assado e salada. Não gostaria de ter vindo ao outro lado do mundo pra comer frango e salada, mas fica a critério de vocês. — Ironizou Karol, eu olhei para Vivian Clarissa.
+	— O frango é um dos principais alimentos que são ricos em proteínas. As proteínas são macromoléculas essenciais para o corpo humano que são formadas pela combinação de aminoácidos. Esses aminoácidos são substâncias que apresentam um grupamento amino (–NH&lt;sub&gt;2&lt;/sub&gt;) e um grupamento carboxila (–COOH). O ácido acético pode ser usado para vários fins. O mais comum é o próprio vinagre. Vinagre é comumente utilizado para temperar saladas. O ácido acético ou etanóico é o principal componente do vinagre, sendo responsável por seu sabor azedo.A partir dela pode-se perceber a presença de um ácido carboxílico em sua estrutura caracterizado por um grupo carboxila na extremidade da cadeia. — dessa vez ela tirou uma caneta da bolsa e desenhou para mim as estruturas daqueles compostos químicos estranhos.	
 	
+&lt;img src=&quot;https://pablobusatto.com.br/ufc/tecnodocencia/made/img/acido-acetico.svg&quot; width=&quot;50%&quot;&gt;
+(ácido acético)
 	
-	
-&lt;img src=&quot;https://static.todamateria.com.br/upload/fo/rm/formulaacidoacetico-cke.jpg&quot;&gt;
-	
-	
-	
-	&mdash; Continuandoooo &mdash; falou Karol cantarolando &mdash; A ultima opção se chama 12 piece bucket que é um balde com 12 peças de perfei... digo, frango gorduroso e empanado. Uma boa porção que daria pra todo mundo comer bem. É bem comum ver Youtubers comendo isso naqueles vídeos esquisitos de Mukbang. &mdash; Comentou Karol com os colegas.
-	&mdash; Mukbang? &mdash; O filósofo perguntou.
-	&mdash; É uma tendência que surgiu na internet e consiste basicamente de você se filmar comendo quantidades gigantes de comida olhando pra câmera. &mdash; Explicou. 
-	&mdash; Parece interessante. &mdash; Replicou o filósofo.
-	&mdash; Me parece muito bom &mdash; falei.
-	&mdash; Parece que eles tem um bom plano de saúde. &mdash; Falou Vivian Clarissa fazendo a gente rir.
-	&mdash; Enfim! &mdash; Ela interrompeu desviando da pergunta. &mdash; Esses são os pratos, decidam antes que ouçam minha barriga roncar mais alto.
-
-
-
-
+	— Continuandoooo — falou Karol cantarolando — A ultima opção se chama 12 //piece bucket// que é um balde com 12 peças de perfei... digo, frango gorduroso e empanado. Uma boa porção que daria pra todo mundo comer bem. É bem comum ver //youtubers// comendo isso naqueles vídeos esquisitos de //mukbang//. — Comentou Karol com os colegas.
+	— //Mukbang//? — O filósofo perguntou.
+	— É uma tendência que surgiu na internet e consiste basicamente de você se filmar comendo quantidades gigantes de comida olhando pra câmera. — Explicou. 
+	— Parece interessante. — Replicou o filósofo.
+	— Me parece muito bom — falei.
+	— Parece que eles tem um bom plano de saúde. — Falou Vivian Clarissa fazendo a gente rir.
+	— Enfim! — Ela interrompeu desviando da pergunta. — Esses são os pratos, decidam antes que ouçam minha barriga roncar mais alto.
 
  Escolha:
 
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[12 piece bucket -&gt;12 pieces bucket]]
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[fish and chips-&gt;fish and chips]]
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[chicken and salad-&gt;chicken and salad]]
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[//12 piece bucket//-&gt;12 pieces bucket]]
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[//fish and chips//-&gt;fish and chips]]
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[//chicken and salad//-&gt;chicken and salad]]
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Degustação Completa-&gt;Degustação completa]]
 (t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Não sei, perguntar ao garçom-&gt;Garçom-1.2]]
-
-</tw-passagedata><tw-passagedata pid="20" name="Degustação Completa-Caixa" tags="" position="955,289" size="100,100">
-
-Nós fomos até o caixa explicamos para a moça que havia acontecido um engano com a nossa conta e tudo correu de forma tranquila repartimos os custos e então fomos em direção ao meu carro.
-  A noite era uma criança e assim que saímos do restaurante fomos dar uma volta na cidade conhecer alguns locais, durante a noite comentei mais algumas vezes sobre a minha proposta, respondi dúvidas e fiz perguntas depois de um tempo deixei todos em suas casas e fui dormir planejando o livro jogo, como ele seria a quantidade de finais que haveria, Ah!Como esse projeto vai ser um épico!
-
-
+</tw-passagedata><tw-passagedata pid="20" name="Degustação Completa-Caixa" tags="" position="955,289" size="100,100">Nós fomos até o caixa explicamos para a moça que havia acontecido um engano com a nossa conta e tudo correu de forma tranquila repartimos os custos e então fomos em direção ao meu carro.
+A noite era uma criança e assim que saímos do restaurante fomos dar uma volta na cidade conhecer alguns locais, durante a noite comentei mais algumas vezes sobre a minha proposta, respondi dúvidas e fiz perguntas depois de um tempo deixei todos em suas casas e fui dormir planejando o livro jogo, como ele seria a quantidade de finais que haveria, Ah!Como esse projeto vai ser um épico!
 
 &lt;img src=&quot;https://i.pinimg.com/originals/f4/b7/78/f4b7780fca451d095bb0fbf5c9a53f71.gif&quot;&gt;
 
-
-
-
-
-
-(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo -&gt;Felizes de Barriga cheia]]</tw-passagedata><tw-passagedata pid="21" name="Equipe" tags="" position="1424,218" size="100,100">
-Danielle Alícia:
-
- Construção do livro jogo
- sistemas e Mídias Digitais
+(t8n-depart:&quot;dissolve&quot;)+(t8n-arrive:&quot;fade-left&quot;)+(t8n-time:1s)[[Próximo -&gt;Felizes de Barriga cheia]]</tw-passagedata><tw-passagedata pid="21" name="Equipe" tags="" position="1423,218" size="100,100"> &lt;img src=&quot;https://pablobusatto.com.br/ufc/tecnodocencia/made/img/brasao-ufc.png&quot; width=&quot;100em&quot;&gt;
+ &#39;&#39;Universidade Federal do Ceará&#39;&#39;
+ &#39;&#39;Disciplina de Tecnodocência&#39;&#39;
  
- Vivian:
-
-Conteúdo de química
+ Professores: &#39;&#39;Luciana de Lima&#39;&#39; e &#39;&#39;Robson Carlos Loureiro&#39;&#39;
  
- Clarissa:
-
- Conteúdo de química
+ &#39;&#39;EQUIPE&#39;&#39;
  
+ &#39;&#39;Clarissa&#39;&#39;
+ //Conteúdo de química//
  
- João:
+ &#39;&#39;Danielle Alícia&#39;&#39;
+ //Construção do livro jogo//
+ //Sistemas e Mídias Digitais//
  
- Conteúdo de Biologia
+ &#39;&#39;João&#39;&#39;
+ //Conteúdo de biologia//
  
+ &#39;&#39;Karol&#39;&#39;
+ //Conteúdo de letras//
+ //Script da história//
  
- Pablo:
+ &#39;&#39;Pablo Busatto&#39;&#39;
+ //Conteúdo de filosofia//
+ //Script da história//
+ //Ilustrações das estruturas químicas//
+ //Revisão//
  
- Conteúdo de filosofia
+ &#39;&#39;Vivian&#39;&#39;
+ //Conteúdo de química//
  
- 
- Karol:
- 
- Conteúdo de letras
- Script da história</tw-passagedata></tw-storydata>
+ Produzido em Fortaleza, em 22 de junho de 2021.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
