@@ -23,7 +23,7 @@
 		}
 		
 		h1,h2 {
-			font-size: 2em;
+			font-size: 1em;
 			font-weight: bold;
 			text-transform: uppercase;
 			margin: 0.67em 0 0.67em 0;
@@ -60,53 +60,66 @@
 		
 		.item-terciário {
 			display: grid;
+			gap: 2vw;
 		}
 		
 		.item-primario.item-1 .item-terciário {
 			grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+			
 		}
 		
 		.item-primario.item-2 .item-terciário {
 			grid-template: 1fr 1fr 1fr / 1fr;
 		}
+		
+		.item-terciário > li {
+			display: block;
+			background-color: crimson;
+		}
+		
+		li > img {
+			width: 50%;
+			padding: 10%;
+		}
+		
 	</style>
 	<body>
 		<ul class="container container-primario">
 			<div class="item item-primario item-1">
 				<li class="item item-secundario item-1"><h1>Tecnodocência</h1>
 					<ul class="item item-terciário item-2">
-						<li>Prêmios</li>
-						<li>Fotos</li>
-						<li>Equipe</li>
-						<li>Facebook</li>
-						<li>YouTube</li>
-						<li>Blogger</li>
-						<li>Instagram</li>
-						<li>Soundcloud</li>
-						<li>Contato</li>
+						<li><img src="icones/trofeu-w.svg" alt="prêmio"></li>
+						<li><img src="icones/camera-w.svg" alt="fotos"></li>
+						<li><img src="icones/pessoas-w.svg" alt="equipe"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Facebook"></li>
+						<li><img src="icones/trofeu-w.svg" alt="YouTube"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Blogger"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Instagram"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Soundcloud"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Contato"></li>
 					</ul>
 				</li>
 			</div>
 			<div class="item item-primario item-2">
 				<li class="item item-secundario item-1"><h2>Ensino</h2>
 					<ul class="item item-terciário item-2">
-						<li>Tecnodocência presencial</li>
-						<li>Tecnodocência EAD</li>
-						<li>MADE</li>
+						<li><img src="icones/trofeu-w.svg" alt="Tecnodocência presencial"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Tecnodocência EAD"></li>
+						<li><img src="icones/trofeu-w.svg" alt="MADE"></li>
 					</ul>
 				</li>
 				<li class="item item-secundario item-2"><h2>Pesquisa</h2>
 					<ul class="item item-terciário item-2">
-						<li>GPT</li>
-						<li>FICA-T</li>
-						<li>Publicações</li>
+						<li><img src="icones/trofeu-w.svg" alt="GPT"></li>
+						<li><img src="icones/trofeu-w.svg" alt="FICA-T"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Publicações"></li>
 					</ul>
 				</li>
 				<li class="item item-secundario item-3"><h2>Extensão</h2>
 					<ul class="item item-terciário item-2">
-						<li>Projeto GET</li>
-						<li>Projeto MADE</li>
-						<li>MADE dos projetos</li>
+						<li><img src="icones/trofeu-w.svg" alt="Projeto GET"></li>
+						<li><img src="icones/trofeu-w.svg" alt="Projeto MADE"></li>
+						<li><img src="icones/trofeu-w.svg" alt="MADE dos projetos"></li>
 					</ul>
 				</li>
 			</div>
