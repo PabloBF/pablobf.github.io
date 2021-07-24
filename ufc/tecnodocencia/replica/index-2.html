@@ -44,8 +44,9 @@
 			flex: 1; 
 		}
 		.item-primario.item-2 {
+			border: 1px dashed red; /*para testes*/
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template: 1fr repeat(3, 1fr) / repeat(3, 1fr);
 			flex: 1;
 		}
 		
@@ -78,7 +79,7 @@
 		}
 		
 		li {
-			line-height: 3vh;
+			line-height: 2vh;
 			padding: 10%;
 		}
 		
