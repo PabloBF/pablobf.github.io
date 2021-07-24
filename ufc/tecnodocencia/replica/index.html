@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teste</title>
+	</head>
+	<style>
+		@font-face {
+			font-family: Abel;
+				src: url("fonts/abel.woff2") format("woff2");
+		}
+		
+		body {
+			background-color: #565656;
+			background-image: url("rede-2.svg");
+			background-repeat: no-repeat;
+			background-position: top right;
+			background-size: 54.615385%; /*  */
+			
+			font-family: Abel, sans-serif;
+			color: #ffffff;
+			text-align: center;
+		}
+		
+		h1,h2 {
+			font-size: 40px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0.67em 0 0.67em 0;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container-primario {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.item-primario.item-1 {
+			flex: 1; 
+		}
+		.item-primario.item-2 {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			flex: 1;
+		}
+		
+		.item-secundario {
+			flex-grow: 0;
+			padding: 2vw;
+		/*	border: 1px dashed red; */
+		}
+		.item-primario {
+			flex-grow: 1;
+		}
+		
+		.item-terciário {
+			display: grid;
+		}
+		
+		.item-primario.item-1 .item-terciário {
+			grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+		}
+		
+		.item-primario.item-2 .item-terciário {
+			grid-template: 1fr 1fr 1fr / 1fr;
+		}
+	</style>
+	<body>
+		<ul class="container container-primario">
+			<div class="item item-primario item-1">
+				<li class="item item-secundario item-1"><h1>Tecnodocência</h1>
+					<ul class="item item-terciário item-2">
+						<li>Prêmios</li>
+						<li>Fotos</li>
+						<li>Equipe</li>
+						<li>Facebook</li>
+						<li>YouTube</li>
+						<li>Blogger</li>
+						<li>Instagram</li>
+						<li>Soundcloud</li>
+						<li>Contato</li>
+					</ul>
+				</li>
+			</div>
+			<div class="item item-primario item-2">
+				<li class="item item-secundario item-1"><h2>Ensino</h2>
+					<ul class="item item-terciário item-2">
+						<li>Tecnodocência presencial</li>
+						<li>Tecnodocência EAD</li>
+						<li>MADE</li>
+					</ul>
+				</li>
+				<li class="item item-secundario item-2"><h2>Pesquisa</h2>
+					<ul class="item item-terciário item-2">
+						<li>GPT</li>
+						<li>FICA-T</li>
+						<li>Publicações</li>
+					</ul>
+				</li>
+				<li class="item item-secundario item-3"><h2>Extensão</h2>
+					<ul class="item item-terciário item-2">
+						<li>Projeto GET</li>
+						<li>Projeto MADE</li>
+						<li>MADE dos projetos</li>
+					</ul>
+				</li>
+			</div>
+		</ul>
+	</body>
+</html>
