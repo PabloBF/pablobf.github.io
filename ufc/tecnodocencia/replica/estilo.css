@@ -97,6 +97,7 @@ li {
   display: block;
   height: 8vh;
   margin: 0 auto;
+  padding: 2vh;
 }
 
 #menu-inicio figcaption {
