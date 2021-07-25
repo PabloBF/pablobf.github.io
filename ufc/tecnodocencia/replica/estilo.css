@@ -49,8 +49,6 @@ body {
 
 #menu-inicio > ul > div > li {
   flex-grow: 0;
-  padding: 2vw;
-  /*border: 1px dashed red;*/
 }
 
 #menu-inicio > ul > div {
@@ -59,42 +57,50 @@ body {
 
 #menu-inicio > ul > div > li > ul {
   display: grid;
-  gap: 2vw;
+  height: 75vh;
 }
+
+
 
 #menu-inicio > ul > div:nth-of-type(1) > li > ul {
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  column-gap: 4vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
 }
 
 #menu-inicio > ul > div:nth-of-type(2) > li > ul {
   grid-template: 1fr 1fr 1fr / 1fr;
 }
 
+#menu-inicio > ul > div:nth-of-type(2) > li {
+  grid-template: 1fr 1fr 1fr / 1fr;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
 #menu-inicio > ul > div > li > ul > li {
-  display: block;
-  background-color: crimson;
-  background: linear-gradient(45deg, rgba(220,20,60,1) 0%, rgba(219,54,86,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
-  line-height: 3vh;
-  padding: 1em;
   border-radius: 1vh;
 }
 
-.item figure {
+#menu-inicio figure {
   margin: 0;
 }
 
-.item figure img {
+#menu-inicio figure > img {
   height: 5em;
   display: block;
   margin: 0 auto;
 }
 
-.item figcaption {
+#menu-inicio figcaption {
   height: 2em;
-  line-height: 1em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -111,4 +117,8 @@ li {
 
 #menu-inicio > ul > div > li > ul > li:hover {
   background-position: right center; /* change the direction of the change here */
+}
+
+#menu-inicio > ul > div > li > ul > li {
+  height: 20vh;
 }
