@@ -94,8 +94,8 @@ li {
 }
 
 #menu-inicio figure > img {
-  height: 5em;
   display: block;
+  height: 8vh;
   margin: 0 auto;
 }
 
