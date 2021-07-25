@@ -100,15 +100,15 @@ li {
   flex-direction: column;
 }
 
-.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+.item-terciário > li {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
 
-.btn-grad {
+.item-terciário > li {
   transition: 0.5s;
   background-size: 200% auto;            
   box-shadow: 0 0 20px #eee;
 }
 
-.btn-grad:hover {
+.item-terciário > li:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
