@@ -85,3 +85,7 @@ li {
 figure {
   margin: 0;
 }
+
+.item figcaption {
+  height: 2em;
+}
