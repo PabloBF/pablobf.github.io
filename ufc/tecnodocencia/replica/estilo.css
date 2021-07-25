@@ -57,20 +57,20 @@ ul {
   flex-grow: 1;
 }
 
-.item-terciário {
+.item-terciario {
   display: grid;
   gap: 2vw;
 }
 
-.item-primario.item-1 .item-terciário {
+.item-primario.item-1 .item-terciario {
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 
-.item-primario.item-2 .item-terciário {
+.item-primario.item-2 .item-terciario {
   grid-template: 1fr 1fr 1fr / 1fr;
 }
 
-.item-terciário > li {
+.item-terciario > li {
   display: block;
   background-color: crimson;
   background: linear-gradient(45deg, rgba(220,20,60,1) 0%, rgba(219,54,86,1) 100%);
@@ -100,15 +100,15 @@ li {
   flex-direction: column;
 }
 
-.item-terciário > li {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+.item-terciario > li {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
 
-.item-terciário > li {
+.item-terciario > li {
   transition: 0.5s;
   background-size: 200% auto;            
   box-shadow: 0 0 20px #eee;
 }
 
-.item-terciário > li:hover {
+.item-terciario > li:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
