@@ -82,8 +82,12 @@ li {
   border-radius: 1vh;
 }
 
-figure {
+.item figure {
   margin: 0;
+}
+
+.item figure img {
+  height: 20vh;
 }
 
 .item figcaption {
