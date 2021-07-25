@@ -1,98 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Teste</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<title>Réplica do site Tecnodocência</title>
 	</head>
-	<style>
-		@font-face {
-			font-family: Abel;
-				src: url("fonts/abel.woff2") format("woff2");
-		}
-		
-		body {
-			background-color: #565656;
-			background-image: url("rede-2.svg");
-			background-repeat: no-repeat;
-			background-position: top right;
-			background-size: 54.615385%; /*  cor da rede: #db3656 */
-			
-			font-family: Abel, sans-serif;
-			color: #ffffff;
-			text-align: center;
-		}
-		
-		nav {
-		padding-top: 15vh;
-		}
-		
-		h1,h2 {
-			font-size: 1em;
-			font-weight: bold;
-			text-transform: uppercase;
-			margin: 0.67em 0 0.67em 0;
-		}
-		
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		
-		.container-primario {
-			display: flex;
-			flex-wrap: wrap;
-		}
-
-		.item-primario.item-1 {
-			flex: 1; 
-		}
-		.item-primario.item-2 {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			flex: 1;
-		}
-		
-		.item-secundario {
-			flex-grow: 0;
-			padding: 2vw;
-		/*	border: 1px dashed red; */
-		}
-		.item-primario {
-			flex-grow: 1;
-		}
-		
-		.item-terciário {
-			display: grid;
-			gap: 2vw;
-		}
-		
-		.item-primario.item-1 .item-terciário {
-			grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-			
-		}
-		
-		.item-primario.item-2 .item-terciário {
-			grid-template: 1fr 1fr 1fr / 1fr;
-		}
-		
-		.item-terciário > li {
-			display: block;
-			background-color: crimson;
-			background: linear-gradient(45deg, rgba(220,20,60,1) 0%, rgba(219,54,86,1) 100%);
-		}
-		
-		li {
-			line-height: 3vh;
-			padding: 10%;
-			border-radius: 1vh;
-		}
-		
-		figure {
-		margin: 0;
-		}
-		
-	</style>
 	<body>
 		<nav>
 			<ul class="container container-primario">
