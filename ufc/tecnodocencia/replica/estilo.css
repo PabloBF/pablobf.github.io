@@ -83,9 +83,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-li {
+  height: 20vh;
+  padding: 0 2vh;
   border-radius: 1vh;
 }
 
@@ -118,8 +117,4 @@ li {
 
 #menu-inicio > ul > div > li > ul > li:hover {
   background-position: right center; /* change the direction of the change here */
-}
-
-#menu-inicio > ul > div > li > ul > li {
-  height: 20vh;
 }
