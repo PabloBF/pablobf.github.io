@@ -128,26 +128,6 @@ footer {
 }
 
 footer > img {
-  height: 10vh;
-  margin: 4.20825474223492vh 6.3123821133vh 4.20825474223492vh 6.3123821133vh;
-}
-
-footer > img:nth-of-type(2) {
-  height: 8.18259vh;
-  transform: translateY(1.92788vh);
-}
-
-footer > img:nth-of-type(3) {
-  height: 7.8341vh;
-  transform: translateY(0.7218vh);
-}
-
-footer > img:nth-of-type(4) {
-  height: 14.40469vh;
-  transform: translateY(-0.38556vh);
-}
-
-footer > img:nth-of-type(5) {
-  height: 17.83447vh;
-  transform: translateY(-4.552vh);
+  height: 50px;
+  margin: 5.67px 8.5px 5.67px 8.5px;
 }
