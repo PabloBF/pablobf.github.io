@@ -53,6 +53,7 @@ body {
 
 #menu-inicio > ul > div {
   flex-grow: 1;
+  padding: 0 1vh;
 }
 
 #menu-inicio > ul > div > li > ul {
@@ -86,7 +87,7 @@ body {
   height: 20vh;
   padding: 0 2vh;
   border-radius: 1vh;
-  min-height: 7em;
+  overflow: hidden;
 }
 
 #menu-inicio figure {
