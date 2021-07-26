@@ -86,7 +86,7 @@ body {
   height: 20vh;
   padding: 0 2vh;
   border-radius: 1vh;
-  min-height: 20vh;
+  min-height: 7em;
 }
 
 #menu-inicio figure {
@@ -112,7 +112,7 @@ body {
 }
 
 #menu-inicio > ul > div > li > ul > li {
-  transition: background-color 0.5s;
+  transition: background-image 0.5s;
   background-size: 200% auto;            
 }
 
