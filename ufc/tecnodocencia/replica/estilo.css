@@ -112,7 +112,7 @@ body {
 }
 
 #menu-inicio > ul > div > li > ul > li {
-  transition: background-image 0.5s;
+  transition: background 0.5s;
   background-size: 200% auto;            
 }
 
