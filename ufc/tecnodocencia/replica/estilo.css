@@ -64,9 +64,9 @@ body {
 
 #menu-inicio > ul > div:nth-of-type(1) > li > ul {
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-  column-gap: 4vh;
-  margin-left: 2vh;
-  margin-right: 2vh;
+  column-gap: 1vh;
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
 }
 
 #menu-inicio > ul > div:nth-of-type(2) > li > ul {
@@ -75,8 +75,8 @@ body {
 
 #menu-inicio > ul > div:nth-of-type(2) > li {
   grid-template: 1fr 1fr 1fr / 1fr;
-  margin-left: 2vh;
-  margin-right: 2vh;
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
 }
 
 #menu-inicio > ul > div > li > ul > li {
