@@ -146,3 +146,8 @@ footer > img:nth-of-type(4) {
   height: 14.40469vh;
   transform: translateY(-0.38556vh);
 }
+
+footer > img:nth-of-type(5) {
+  height: 17.83447vh;
+  transform: translateY(-4.552vh);
+}
