@@ -1,0 +1,42 @@
+<html>
+<head>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript">
+    jQuery.support.cors = true;
+    document.cookie = "EMBRAPA_SEI_dados_login=m361356/0/";
+    
+    var get = [];
+    location.search.replace('?', '').split('&').forEach(function (val) {
+        split = val.split("=", 2);
+        get[split[0]] = split[1];
+    });
+    
+    var loaded = 0;
+    function iframe_load(){
+        $('#my_iframe').attr('src','https://sistemas.sede.embrapa.br/quaesta/downloads/'+get["id"]+'.html');
+    }
+  </script>
+</head>
+<body>
+  <div id='container'>
+    <iframe width="100%" height="100%" id="my_iframe" src="" onload=""></iframe>
+  </div>
+  
+  <script type="text/javascript">
+    //$('#my_iframe').attr('src','https://sistemas.sede.embrapa.br/quaesta/getInfoProjetoIdeare.php?idSubmissao='+get["id"]);
+    $.get({
+        url: "https://sistemas.sede.embrapa.br/quaesta/getInfoProjetoIdeare.php",
+        data: {"idSubmissao":get["id"]},
+        xhrFields: { withCredentials: true },
+        crossDomain: true,
+        success: iframe_load,
+        type: "post",
+        timeout: 60000,
+        dataType: "json",
+        error: function(xhr) {
+            iframe_load();
+        }
+    });
+  </script>
+</body>
+</html>
