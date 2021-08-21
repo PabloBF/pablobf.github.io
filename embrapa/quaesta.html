@@ -2,15 +2,12 @@
 <head>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript">
-    jQuery.support.cors = true;
-    
     var get = [];
     location.search.replace('?', '').split('&').forEach(function (val) {
         split = val.split("=", 2);
         get[split[0]] = split[1];
     });
     
-    var loaded = 0;
     function iframe_load(){
         $('#my_iframe').attr('src','https://sistemas.sede.embrapa.br/quaesta/downloads/'+get["id"]+'.html');
     }
@@ -22,7 +19,7 @@
   </div>
   
   <script type="text/javascript">
-    //$('#my_iframe').attr('src','https://sistemas.sede.embrapa.br/quaesta/getInfoProjetoIdeare.php?idSubmissao='+get["id"]);
+    jQuery.support.cors = true;
     $.get({
         url: "https://sistemas.sede.embrapa.br/quaesta/getInfoProjetoIdeare.php",
         data: {"idSubmissao":get["id"]},
