@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/464715f862.js" crossorigin="anonymous"></script>
+		<!-- fontes -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600&display=swap" rel="stylesheet">
+		<title>Rodrigo Douglas Bernardo de Araújo - Currúculo</title>
+		<style>
+			* {
+				padding:0;
+				margin:0;
+				vertical-align:baseline;
+				border:0;
+				box-sizing: border-box;
+			}
+			
+			ul {
+				display: block;
+				list-style-type: disc;
+				margin-left: 0;
+				margin-right: 0;
+				padding-left: 40px;
+			}
+
+			body {
+				background-color: white;
+				font-family: 'Assistant', sans-serif;
+			}
+			
+			.column, header {
+				background-color: #EEEFF2;
+			}
+			
+			article > header > p {
+				font-weight: 200;
+			}
+
+			h1, h2 {
+				color: #444440;
+				font-weight: 600;
+				background-color: #A7A7A8;
+				text-transform: uppercase;
+				font-size: 28pt;
+				padding: 0.1em;
+			}
+
+			h3 {
+				transform-origin: 0 0;
+				transform: rotate(90deg);
+			}
+
+			h1, .graduacao {
+				text-align: center;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+			}
+
+			.graduacao {
+				font-size: 16pt;
+			}
+			
+			.cartao {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 100px;
+				margin: 20px;
+			}
+			
+			.cartao li {
+				margin: 20pt;
+			}
+
+
+			.avatar {
+				border-radius: 50%;
+			}
+
+			.palavras-chaves {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				-ms-box-orient: horizontal;
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-wrap: wrap;
+				flex-wrap: wrap;
+				align-content: stretch;
+				justify-content: space-between;
+			}
+
+			.palavras-chaves > li {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 20px;
+				background-color: #e8e8e8;
+				margin:2px;
+			}
+
+			/* Create two equal columns that floats next to each other */
+			.column {
+				float: left;
+				width: 50%;
+				padding: 10px;
+			}
+
+			/* Clear floats after the columns */
+			.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 600px) {
+				.column {
+					width: 100%;
+				}
+			}
+			
+			aside {
+				display: block;
+				position: relative;
+				margin: auto;
+			}
+
+			aside h3 {
+				font: bold 12px Sans-Serif;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				background: #ccc;
+				color: red;
+				padding: 5px 10px;
+				margin: 0 0 10px 0;
+				line-height: 24px;
+			}
+
+			/* Class name via Modernizr */
+			.csstransforms aside {
+				border-left: 34px solid #369;
+				padding-left: 10px;
+			}
+			.csstransforms aside h3 {
+			/* Abs positioning makes it not take up vert space */
+				position: absolute;
+				top: 0;
+				left: 0;
+
+			/* Border is the new background */
+				background: none;
+
+			/* Rotate from top left corner (not default) */
+				transform-origin: 0 0;
+				transform: rotate(90deg);
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Rodrigo Douglas Bernardo de Araújo</h1>
+			<div class="cartao">
+				<img class="avatar" src="https://www.w3schools.com/w3css/img_avatar3.png"  alt="Rodrigo Bernardo" width="200" height="200">
+				<ul class="fa-ul">
+					<li><span class="fa-li"><i class="fa-sharp fa-solid fa-location-dot"></i></span>Fortaleza, CE</li>
+					<li><span class="fa-li"><i class="fa-sharp fa-solid fa-phone"></i></span>(85) 98901-3060</li>
+					<li><span class="fa-li"><i class="fa-sharp fa-solid fa-envelope-open"></i></span>rodrigodouglasba@gmail.com</li>
+					<li><span class="fa-li"><i class="fa-brands fa-linkedin"></i></span><a href="https://www.linkedin.com/in/rodrigodbernardo" rel="external">linkedin.com/in/rodrigodbernardo</a></li>
+				</ul>
+			</div>
+			<p class="graduacao"><strong>Engenharia mecatrônica - IFCE - semestre 10</strong></p>
+		</header>
+		
+		<section class="row">
+			<div class="column">
+				<section>
+					<h2>Experiência recente</h2>
+						<section>
+							<aside>
+								<h3>2022</h3>
+								<article>
+									<header>
+										<h4>Voluntário</h4>
+										<p>PIBITI | 2021-2022 | 6 meses</p>
+									</header>
+									<ul>
+										<li>Auxílio no desenvolvimento de <i lang="en">firmware</i> para sistema embarcado <abbr title="Internet of Things" lang="en">IoT</abbr> para análise de vibração;</li>
+										<li>Reconhecimento de padrões de vibração em bombas centrífugas industriais, desenvolvendo extrator de características para utilização em sistema embarcado;</li>
+									</ul>
+								</article>
+							</aside>
+							<aside>
+								<h3>2021</h3>
+								<article>
+									<header>
+										<h4>Estagiário</h4>
+										<p>AJL Informática/Chemtech | 2020-2021 | 1 ano e 2 meses</p>
+									</header>
+									<ul>
+										<li>Membro do time de Governança <abbr title="Plant Information Management Systems" lang="en">PIMS</abbr> e <abbr title="Manufacturing Execution Systems" lang="en">MES</abbr> da Chemtech;</li>
+										<li>Suporte em sistemas <abbr title="Plant Information Management Systems" lang="en">PIMS</abbr> e <abbr title="Manufacturing Execution Systems" lang="en">MES</abbr> da Braskem;</li>
+										<li>Desenvolvimento de soluções <abbr title="Structured Query Language" lang="en">SQL</abbr> nos servidores Braskem;</li>
+										<li>Cadastro de cálculos e <i lang="en">tags</i> em servidores Braskem;</li>
+										<li>Manutenção da integração entre aplicações <abbr title="Manufacturing Execution Systems" lang="en">MES</abbr> da Braskem;</li>
+										<li>Suporte ao setor de automação da Braskem.</li>
+									</ul>
+								</article>
+							</aside>
+							<aside>
+								<h3>2020</h3>
+								<article>
+									<header>
+										<h4>Bolsista</h4>
+										<p>PIBITI - IFCE/LAPISCO | 2020-2021 | 1 ano</p>
+									</header>
+									<ul>
+										<li>Aperfeiçoamento do sistema desenvolvido anteriormente;</li>
+										<li>Testes conceituais em extratores e classificadores de padrões diferentes, com variação de classes e abordagens;</li>
+										<li>Análise de desempenho das ferramenta de inteligência computacional.</li>
+									</ul>
+									<header>
+										<h4>Bolsista</h4>
+										<p>PIBITI - IFCE/LAPISCO | 2019-2020 | 1 ano</p>
+									</header>
+									<ul>
+										<li>Desenvolvimento de sistema <abbr title="Internet of Things" lang="en">IoT</abbr> para reconhecimento de padrões de vibração com as plataformas Arduino e ESP;
+										<li>Desenvolvimento em baixo nível para o sistema;</li>
+										<li>Desenvolvimento web introdutório com Python, PHP e Javascript.</li>
+									</ul>
+								</article>
+							</aside>
+							<aside>
+								<h3>2019</h3>
+								<article>
+									<header>
+										<h4>Voluntário</h4>
+										<p>Laboratório de Automação e Redes Industriais - IFCE | 2019 | 1 mês</p>
+									</header>
+									<ul>
+										<li>Garantia da integridade dos equipamentos do laboratório;</li>
+										<li>Análise e melhoria nos processos da planta industrial;</li>
+										<li>Estudo de sistemas supervisórios <abbr title="Supervisory Control and Data Acquisition" lang="en">SCADA</abbr> (Elipse E3, Ignition SCADA).</li>
+									</ul>
+								</article>
+							</aside>
+						</section>
+				</section>
+			</div>
+			<div class="column">
+				<section>
+					<h2>Habilidades</h2>
+					<ul class="palavras-chaves">
+						<li>sistemas embarcados</li>
+						<li><abbr title="Plant Information Management Systems" lang="en">PIMS</abbr>/<abbr title="Manufacturing Execution Systems" lang="en">MES</abbr></li>
+						<li><abbr title="Structured Query Language" lang="en">SQL</abbr></li>
+						<li>automação industrial</li>
+						<li>C++</li>
+						<li>instrumentação</li>
+						<li>comunicação <abbr title="Message Queuing Telemetry Transport" lang="en">MQTT</abbr></li>
+						<li>eletrônica</li>
+						<li>sistemas supervisórios (<abbr title="Supervisory Control and Data Acquisition" lang="en">SCADA</abbr>)</li>
+						<li>inteligência computacional</li>
+						<li><abbr title="Internet of Things" lang="en">IoT</abbr></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Destaques</h2>
+					<ul class="fa-ul">
+						<li><span class="fa-li"><i class="fa-sharp fa-solid fa-bookmark"></i></span>Participação como membro da Governança <strong><abbr title="Plant Information Management Systems" lang="en">PIMS</abbr> e <abbr title="Manufacturing Execution Systems" lang="en">MES</abbr></strong> da Chemtech para a Braskem. Atuação com manutenção nos sistemas <abbr title="Plant Information Management Systems" lang="en">PIMS</abbr> e <abbr title="Manufacturing Execution Systems" lang="en">MES</abbr> da empresa, atendimento ao setor de automação da Braskem.</li>
+						<li><span class="fa-li"><i class="fa-sharp fa-solid fa-bookmark"></i></span>Artigo “<strong lang="en"><cite><a href="https://doi.org/10.1007/s40313-021-00806-w" rel="external">Fast detection of centrifugal pumps condition by structural analysis of <abbr title="Micro-Electro-Mechanical System" lang="en">MEMS</abbr> sensor signals</a></cite></strong>” publicado em edição especial da revista científica Springer (2021).</li>
+						<li><span class="fa-li"><i class="fa-sharp fa-solid fa-bookmark"></i></span>Participação voluntária na Empresa Junior de Automação do IFCE, atuando como diretor de projetos durante o ano de 2021 e presidente executivo em 2022.</li>
+						<li><span class="fa-li"><i class="fa-sharp fa-solid fa-bookmark"></i></span>Participação voluntária no Laboratório de Inovação Tecnológica (LIT) do IFCE, atuando na programação de sistemas embarcados. (2018-2019).</li>
+					</ul>
+				</section>
+			</div>
+		</section>
+	</body>
+</html>
